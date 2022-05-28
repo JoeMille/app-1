@@ -1,0 +1,19 @@
+{
+  "name": "app-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeMille/app-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeMille/app-1/issues"
+  },
+  "homepage": "https://github.com/JoeMille/app-1#readme"
+}
