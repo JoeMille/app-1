@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 body {
   background-color: rgb(137, 47, 221);
@@ -22,8 +22,11 @@ body {
   display: flex; /* Use Flexbox to center the navigation */
   justify-content: center; /* Horizontally center the navigation */
   align-items: center; /* Vertically center the navigation */
-  height: 100vh; /* Set the height to fill the viewport */
-  background-color: #d12222; /* Background color for the top nav menu */
+  height: 10vh; /* Set the height to fill the viewport */
+  background-color: #8d0909; /* Background color for the top nav menu */
+  font-size: 50px;
+  font-family: 'Passion One', cursive;
+
 }
 
 .main-nav ul {
@@ -46,4 +49,9 @@ body {
 
 .main-nav a:hover {
   background-color: #555; /* Background color on hover */
+}
+
+
+#home-page-introduction {
+  font-family: 'Passion One', cursive;
 }
