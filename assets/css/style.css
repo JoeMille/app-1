@@ -17,6 +17,12 @@ body {
 /* Styling for the Main Navigation Bar across site */
 
 .main-nav {
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use Flexbox to center the navigation */
+  justify-content: center; /* Horizontally center the navigation */
+  align-items: center; /* Vertically center the navigation */
+  height: 100vh; /* Set the height to fill the viewport */
   background-color: #d12222; /* Background color for the top nav menu */
 }
 
