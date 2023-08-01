@@ -4,10 +4,40 @@
 body {
   background-color: rgb(137, 47, 221);
 }
+/*Styling for the title header */
 
 #main-page-header {
   text-align: center;
-  color: azure;
   font-family: 'Bungee Spice', cursive;
-  border: 2px solid #f1ecec;
+  border: 4px solid #db2323;
+  border-style: double;
+
+}
+
+/* Styling for the Main Navigation Bar across site */
+
+.main-nav {
+  background-color: #d12222; /* Background color for the top nav menu */
+}
+
+.main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display the list items in a horizontal line */
+}
+
+.main-nav li {
+  margin-right: 20px; /* Add some space between each menu item */
+}
+
+.main-nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; /* Add padding to make the menu items clickable */
+}
+
+.main-nav a:hover {
+  background-color: #555; /* Background color on hover */
 }
