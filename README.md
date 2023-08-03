@@ -1,7 +1,7 @@
 # app-1
-# The Coastal Chef Project
+# Headset
 
-![Screenshot](coastal-chef-header-image.png)
+![Screenshot]()
 
 
 ## Description
