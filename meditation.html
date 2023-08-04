@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Meditation App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
   </head>
   <body>
     <nav class="main-nav">
@@ -15,8 +17,9 @@
   </nav>
 
 <div class="meditation-paragraph">
-    <p>To begin a meditation session, it is essential to create a calm environment for the practice. Find a quiet space where you won't be disturbed.</p>
-    <p>Concentrate on the calm between thoughts and when ready, choose a session length and click to begin...</p>
+    <i class="far fa-clock"></i><p>To begin a meditation session, it is essential to create a calm environment for the practice. Find a quiet space where you won't be disturbed.</p>
+    <p>Concentrate on the calm between thoughts and when ready, choose a session length and click to begin... </p>
+</div>
 
 
 
@@ -24,10 +27,10 @@
   <div class="timer-display">
       <span id="minutes">00</span>:<span id="seconds">00</span>
   </div>
-  <button onclick="startTimer(5)">Start 5-Minute Timer</button>
-  <button onclick="startTimer(3)">Start 3-Minute Timer</button>
-  <button onclick="startTimer(2)">Start 2-Minute Timer</button>
-  <button onclick="stopTimer()">Stop</button>
+  <button onclick="startTimer(5)">Start 5-Minute Timer </button>
+  <button onclick="startTimer(3)">Start 3-Minute Timer </button>
+  <button onclick="startTimer(2)">Start 2-Minute Timer </button>
+  <button onclick="stopTimer()">Stop </button>
 </div>
 
 <div class="messages-container"></div>
