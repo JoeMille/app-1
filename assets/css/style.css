@@ -136,11 +136,12 @@ p {
 /*STYLING FOR MEDITATION PAGE*/
 
 .meditation-paragraph {
-  font-family: 'Bayon', sans-serif;
+  font-family: 'Passion One', cursivee ;
   font-size: 30px;
   padding-top: 5%;
   padding-left: 3%;
   padding-right: 3%;
+  text-align: center;
 }
 
 
