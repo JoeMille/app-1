@@ -1,5 +1,7 @@
 // script.js
 
+//RELEVANT CODE FOR TIMER ON MEDITATION PAGE
+
 let timer;
 let timerDuration;
 
@@ -40,3 +42,4 @@ function stopTimer() {
     clearInterval(timer);
     updateTimerDisplay();
 }
+//-----------------------------------------------------------

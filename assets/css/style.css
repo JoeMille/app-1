@@ -90,10 +90,12 @@ p {
   line-height: 1.6;
 }
 
-/* STYLING FOR THE MEDITATION PAGE */
+/* STYLING FOR THE MEDITATION PAGE TIMER*/
 
 
 .timer-container {
+  padding-top: 20%;
+  font-family: 'Passion One', cursivee ;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,7 +107,8 @@ p {
 }
 
 .timer-controls button {
-  font-size: 16px;
+  font-size: 30px;
+  font-family: 'Passion One', cursivee ;
   padding: 10px 20px;
   margin: 5px;
   background-color: #007bff;
@@ -118,5 +121,7 @@ p {
 .timer-controls button:hover {
   background-color: #0056b3;
 }
+
+/*------------------------------------*/
 
 
