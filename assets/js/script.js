@@ -1,13 +1,18 @@
-// script.js
+// timer function for meditation page
 
 const messages = [
-    "Take a deep breath and relax.",
-    "Focus on the sensation of your breath.",
-    "Allow any thoughts to come and go without judgment.",
-    "Embrace this moment of stillness and peace.",
-    "You are in control of your thoughts and emotions.",
-    "Continue to breathe deeply and calmly.",
-    "When you're ready, gently open your eyes and return to the present moment."
+    "Take three deep breaths....",
+    "Focus on your breathing....",
+    "Begin to remove any intruding thoughs, good or bad...",
+    "Embrace this tranquility....",
+    "Continue to breathe deeply....",
+    "Focus on the quiet....",
+    "Keep your shoulders relaxed and your head high....",
+    "Continue to breathe deeply, clearing any further thoughts from your mind....",
+    "Bring your hands together and stretch to the sky....",
+    "Lean your head back and hold your breath for five seconds....",
+    "Close your eyes and imagine immersing into calm water....",
+    
   ];
   
   let timer;
@@ -56,7 +61,7 @@ const messages = [
     // Clear previous message timeout if it exists
     clearTimeout(messageTimeout);
   
-    // Clear previous messages if any
+    // Clear previous messages 
     while (messagesContainer.firstChild) {
       messagesContainer.removeChild(messagesContainer.firstChild);
     }

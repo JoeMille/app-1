@@ -91,25 +91,28 @@ p {
 }
 
 /* STYLING FOR THE MEDITATION PAGE TIMER*/
-/* styles.css */
+
 
 
 
 .timer-container {
   text-align: center;
+  font-family: 'Passion One', cursivee ;
 }
 
 .timer-display {
   font-size: 48px;
+  font-family: 'Passion One', cursivee ;
   color: #007bff; /* Blue color for the timer display */
   margin-bottom: 20px;
 }
 
 .timer-container button {
-  font-size: 16px;
+  font-size: 30px;
+  font-family: 'Passion One', cursivee ;
   padding: 10px 20px;
   margin: 5px;
-  background-color: #007bff; /* Blue color for the buttons */
+  background-color: #0e0ed4; /* Blue color for the buttons */
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -122,8 +125,10 @@ p {
 
 /* Styles for the messages */
 .message {
-  font-size: 18px;
-  margin: 5px 0;
+  font: size 18px;
+  font-family: 'Passion One', cursivee ; 
+  text-align: center;
+  margin: 20px 0;
   color: #333;
   font-weight: bold;
 }
