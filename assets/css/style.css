@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
 
 body {
   background-color: rgb(81, 13, 145);
@@ -92,9 +93,6 @@ p {
 
 /* STYLING FOR THE MEDITATION PAGE TIMER*/
 
-
-
-
 .timer-container {
   text-align: center;
   font-family: 'Passion One', cursivee ;
@@ -125,8 +123,8 @@ p {
 
 /* Styles for the messages */
 .message {
-  font: size 18px;
-  font-family: 'Passion One', cursivee ; 
+  font-size: 60px;
+  font-family: 'Bayon', sans-serif;
   text-align: center;
   margin: 20px 0;
   color: #333;
@@ -138,7 +136,7 @@ p {
 /*STYLING FOR MEDITATION PAGE*/
 
 .meditation-paragraph {
-  font-family: 'Passion One', cursivee;
+  font-family: 'Bayon', sans-serif;
   font-size: 30px;
   padding-top: 5%;
   padding-left: 3%;
