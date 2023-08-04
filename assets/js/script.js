@@ -83,3 +83,19 @@ const messages = [
     updateTimerDisplay();
   }
   
+  //--------------------------GOOGLE MAPS ON FIND US PAGE
+
+  function initMap() {
+    // Create a map centered on a specific location
+    const map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 37.7749, lng: -122.4194 }, // San Francisco, CA
+        zoom: 12,
+    });
+
+    // Add a marker on the map
+    const marker = new google.maps.Marker({
+        position: { lat: 37.7749, lng: -122.4194 },
+        map: map,
+        title: "Hello, World!",
+    });
+}
