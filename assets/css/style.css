@@ -91,40 +91,45 @@ p {
 }
 
 /* STYLING FOR THE MEDITATION PAGE TIMER*/
+/* styles.css */
+
 
 
 .timer-container {
-  padding-top: 5%;
-  font-family: 'Passion One', cursivee ;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .timer-display {
-  font-size: 30px;
-  font-family: 'Passion One', cursivee ;
-  padding: 10px 20px;
-  margin: 5px;
-  background-color: #007bff;
-  color: #fff;
+  font-size: 48px;
+  color: #007bff; /* Blue color for the timer display */
+  margin-bottom: 20px;
 }
 
-.timer-display button {
-  font-size: 30px;
-  font-family: 'Passion One', cursivee ;
+.timer-container button {
+  font-size: 16px;
   padding: 10px 20px;
   margin: 5px;
-  background-color: #007bff;
+  background-color: #007bff; /* Blue color for the buttons */
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.timer-controls button:hover {
-  background-color: #0056b3;
+.timer-container button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
 }
+
+/* Styles for the messages */
+.message {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+
+
 /*STYLING FOR MEDITATION PAGE*/
 
 .meditation-paragraph {
