@@ -94,7 +94,7 @@ p {
 
 
 .timer-container {
-  padding-top: 20%;
+  padding-top: 5%;
   font-family: 'Passion One', cursivee ;
   display: flex;
   flex-direction: column;
@@ -121,7 +121,16 @@ p {
 .timer-controls button:hover {
   background-color: #0056b3;
 }
+/*STYLING FOR MEDITATION PAGE*/
 
-/*------------------------------------*/
+.meditation-paragraph {
+  font-family: 'Passion One', cursivee;
+  font-size: 30px;
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+
 
 
