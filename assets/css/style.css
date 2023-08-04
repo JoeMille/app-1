@@ -102,11 +102,15 @@ p {
 }
 
 .timer-display {
-  font-size: 40px;
-  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: 'Passion One', cursivee ;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: #fff;
 }
 
-.timer-controls button {
+.timer-display button {
   font-size: 30px;
   font-family: 'Passion One', cursivee ;
   padding: 10px 20px;
@@ -130,6 +134,14 @@ p {
   padding-left: 3%;
   padding-right: 3%;
 }
+
+
+
+
+/*-----------------------------------------*/
+
+
+
 
 
 
