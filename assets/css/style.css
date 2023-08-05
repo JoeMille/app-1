@@ -158,12 +158,14 @@ p {
 
 #map {
   width: 40%;
-  height: 400px;
+  height: 350px;
   background-color: rgb(69, 29, 201);
   float: right;
+  padding-right: 10px;
 }
 
 .text-box {
+  font-family: 'Passion One', cursive ;
   width: 40%; /* Adjust the width of the text box container as needed */
   height: 50vh;
   float: left;
