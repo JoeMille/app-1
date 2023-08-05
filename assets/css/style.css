@@ -5,7 +5,7 @@
 body {
   background-color: rgb(81, 13, 145);
   background-image: url(/assets/images/background-image-needles.jpg);
-  background-size: cover; /* Adjust the image size to cover the entire background */
+  background-size: cover; 
 
 }
 /*Styling for the title header */
@@ -24,11 +24,11 @@ body {
 .main-nav {
   margin: 0;
   padding: 0;
-  display: flex; /* Use Flexbox to center the navigation */
-  justify-content: center; /* Horizontally center the navigation */
-  align-items: center; /* Vertically center the navigation */
-  height: 10vh; /* Set the height to fill the viewport */
-  background-color: rgb(81, 13, 145); /* Background color for the top nav menu */
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  height: 10vh; 
+  background-color: rgb(81, 13, 145); 
   font-size: 50px;
   font-family: 'Passion One', cursive;
 
@@ -38,22 +38,22 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; /* Display the list items in a horizontal line */
+  display: flex; 
 }
 
 .main-nav li {
-  margin-right: 20px; /* Add some space between each menu item */
+  margin-right: 20px; 
 }
 
 .main-nav a {
   display: block;
   color: #fcfcfc;
   text-decoration: none;
-  padding: 10px; /* Add padding to make the menu items clickable */
+  padding: 10px; 
 }
 
 .main-nav a:hover {
-  background-color:rgb(223, 53, 15) /* Background color on hover */
+  background-color:rgb(223, 53, 15)
 }
 
 /* Styling for the Homepage image and text boxes */
@@ -61,7 +61,7 @@ body {
 
 .container {
   font-size: 50px;
-  font-family: 'Passion One', cursivee ;
+  font-family: 'Passion One', cursive ;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -95,22 +95,22 @@ p {
 
 .timer-container {
   text-align: center;
-  font-family: 'Passion One', cursivee ;
+  font-family: 'Passion One', cursive ;
 }
 
 .timer-display {
   font-size: 48px;
-  font-family: 'Passion One', cursivee ;
-  color: #007bff; /* Blue color for the timer display */
+  font-family: 'Passion One', cursive;
+  color: #007bff; 
   margin-bottom: 20px;
 }
 
 .timer-container button {
   font-size: 30px;
-  font-family: 'Passion One', cursivee ;
+  font-family: 'Passion One', cursive;
   padding: 10px 20px;
   margin: 5px;
-  background-color: #0e0ed4; /* Blue color for the buttons */
+  background-color: #0e0ed4; 
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -118,10 +118,10 @@ p {
 }
 
 .timer-container button:hover {
-  background-color: #0056b3; /* Darker blue color on hover */
+  background-color: #0056b3; 
 }
 
-/* Styles for the messages */
+/* Styling for the timer messages */
 .message {
   font-size: 60px;
   font-family: 'Bayon', sans-serif;
@@ -131,12 +131,10 @@ p {
   font-weight: bold;
 }
 
-
-
 /*STYLING FOR MEDITATION PAGE*/
 
 .meditation-paragraph {
-  font-family: 'Passion One', cursivee ;
+  font-family: 'Passion One', cursive;
   font-size: 30px;
   padding-top: 5%;
   padding-left: 3%;
@@ -147,10 +145,10 @@ p {
 
 
 
-/*STYLING FOR THE CONTACTS PAGE----------------------------------------*/
+/*STYLING FOR THE CONTACTS PAGE------------*/
 
 #contact-us-content {
-  font-family: 'Passion One', cursivee ;
+  font-family: 'Passion One', cursive ;
   font-size: 30px;
   padding-top: 2%;
   padding-left: 3%;
@@ -162,6 +160,7 @@ p {
   width: 40%;
   height: 400px;
   background-color: rgb(69, 29, 201);
+  justify-content: center;
 }
 
 

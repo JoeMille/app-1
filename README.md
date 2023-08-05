@@ -30,7 +30,7 @@ To clone this project you will need:
 * Github and a Github account.
 * A working internet connection.
 
-To ammend or add to The Coastal Chef, follow these simple steps:
+To ammend or add to, follow these simple steps:
 
 * Sign into your Gitpod account
 * Navigate to the XXXXXXX repository.
