@@ -161,7 +161,6 @@ p {
   height: 350px;
   background-color: rgb(69, 29, 201);
   float: right;
-  padding-right: 10px;
 }
 
 .text-box {
@@ -185,6 +184,53 @@ p {
   font-size: 14px;
 }
 
+/* styles.css */
+
+
+
+.meditation-page-container {
+  width: 100%;
+  max-width: 1200px; /* Adjust the maximum width of the container as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.meditation-page-contact-form {
+  float: left;
+  width: 50%; /* Adjust the width of the contact form container as needed */
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.meditation-page-contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.meditation-page-contact-form form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.meditation-page-contact-form form input,
+.meditation-page-contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.meditation-page-contact-form form button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.meditation-page-contact-form form button:hover {
+  background-color: #0056b3;
+}
 
 
 
