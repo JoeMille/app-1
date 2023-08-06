@@ -93,8 +93,17 @@ const messages = [
     };
     var googlemap = new google.maps.Map(document.getElementById("map"), mapOptions);
   }
+  
+  //-------------------------------CONTACT FORM
+  
+  $(document).ready(function() {
+    $(".contact-form-container").slideUp(0);
+  
+    $("#show-contact-form").click(function() {
+      $(".contact-form-container").slideToggle();
+    });
+  });
 
-
-  //create 
+  
 
   

@@ -23,19 +23,15 @@
             <h2>Find us online or in real life! </h2>
         </div>
     </section>
+
+    <button id="show-contact-form" class="btn-hover-effect">Show Contact Form</button>
     
-    
-    <div id="map"></div>
-    
-    <div class="meditation-page-container">
-      <div class="meditation-page-contact-form">
+    <div class="contact-form-container">
+      <div class="contact-page-form">
           <h2>Contact Us</h2>
           <form>
               <label for="name">Name:</label>
               <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-              <label for="number">Phone Number:</label>
-              <input type="tel" id="number" name="number" placeholder="Enter your phone number" required>
 
               <label for="email">Email:</label>
               <input type="email" id="email" name="email" placeholder="Enter your email" required>
@@ -43,13 +39,21 @@
               <label for="message">Message:</label>
               <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
 
-              <button type="submit">Submit</button>
+              <button type="submit" class="btn-hover-effect">Submit</button>
           </form>
       </div>
   </div>
 
-    
+  
 
+    
+      <!--Code area for the Map Section of page -->
+    
+    <div id="map"></div>
+  
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFBXiZcSMP4dehX6pUceBUlugBcmptEEE&callback=initMap" async defer></script>
     <script src="/assets/js/script.js"></script>
   </body>
