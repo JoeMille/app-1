@@ -62,6 +62,8 @@ ChefJoeMiller1992@gmail.com
 * [Free Code Camp](https://www.freecodecamp.org/)
 
 ## Libraries used
+* Jquery
+* Jest (Testing) 
 * Bootstrap
 * Font-Awesome
 * Google Fonts
