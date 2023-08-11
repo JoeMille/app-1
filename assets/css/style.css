@@ -142,19 +142,7 @@ p {
   text-align: center;
 }
 
-
-
-
 /*STYLING FOR THE CONTACTS PAGE------------*/
-
-#contact-us-content {
-  font-family: 'Passion One', cursive ;
-  font-size: 30px;
-  padding-top: 2%;
-  padding-left: 3%;
-  padding-right: 3%;
-  text-align: center;
-}
 
 #map {
   width: 40%;
@@ -252,4 +240,40 @@ p {
   opacity: 3; 
 }
 
-  
+/* STYLING FOR THE CONTACT PAGE INFORMATION */
+
+#contact-us-information {
+  font-family: 'Passion One', cursive ;
+  font-size: 20px;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+}
+
+/* STYLING FOR THE FOOTER */
+
+footer {
+  background-color: #f0f0f0;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #333;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+p {
+  margin: 0;
+}
