@@ -1,9 +1,7 @@
-// timer function for meditation page
-
 const messages = [
   "Take three deep breaths....",
   "Focus on your breathing....",
-  "Begin to remove any intruding thoughs, good or bad...",
+  "Begin to remove any intruding thoughts, good or bad...",
   "Embrace this tranquility....",
   "Continue to breathe deeply....",
   "Focus on the quiet....",
@@ -17,6 +15,7 @@ const messages = [
 let timer;
 let timerDuration;
 let messageIndex = 0;
+let backgroundAudio;
 
 function startTimer(minutes) {
   if (timer) {
@@ -27,6 +26,10 @@ function startTimer(minutes) {
   updateTimerDisplay();
   showMessage(messages[messageIndex]);
 
+  // Play the background audio
+  backgroundAudio = document.getElementById("background-audio");
+  backgroundAudio.play();
+
   timer = setInterval(() => {
     timerDuration--;
     updateTimerDisplay();
@@ -34,6 +37,8 @@ function startTimer(minutes) {
     if (timerDuration === 0) {
       clearInterval(timer);
       showMessage("Meditation timer is complete!");
+      // Pause the background audio when the timer completes
+      backgroundAudio.pause();
     } else if (timerDuration % 20 === 0) {
       // Show a new message every 20 seconds
       messageIndex++;
@@ -72,6 +77,7 @@ function stopTimer() {
   clearInterval(timer);
   updateTimerDisplay();
 }
+
 
   //--------------------------GOOGLE MAPS ON FIND US PAGE
 
