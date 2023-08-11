@@ -86,13 +86,21 @@ const messages = [
   //--------------------------GOOGLE MAPS ON FIND US PAGE
 
   function initMap() {
-    var dumbo = {lat: 40.700802, lng:73.987602};
     var mapOptions = {
-        center: dumbo,
-        zoom: 10
+      center: { lat: 50.51151297284177, lng: -3.6323162471725485 },
+      zoom: 10,
     };
+    
     var googlemap = new google.maps.Map(document.getElementById("map"), mapOptions);
+  
+    // Add a marker to the map
+    var marker = new google.maps.Marker({
+      position: { lat: 50.51151297284177, lng: -3.6323162471725485 },
+      map: googlemap, // Associate the marker with the map
+      title: "Head Set Zone", 
+    });
   }
+  
   
   //-------------------------------CONTACT FORM
   

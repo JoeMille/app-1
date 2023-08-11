@@ -5,7 +5,7 @@
 body {
   background-color: rgb(81, 13, 145);
   background-image: url(/assets/images/background-image-needles.jpg);
-  background-size: cover; 
+  background-size: no-repeat; 
 
 }
 /*Styling for the title header */
@@ -160,9 +160,12 @@ p {
   width: 40%;
   height: 420px;
   background-color: rgb(69, 29, 201);
-  float: bottom;
-  
+  margin: 0 auto; /* Center horizontally */
+  display: flex;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center vertically */
 }
+
 
 /* styles for contact form */
 
@@ -175,14 +178,14 @@ p {
   width: 100%;
   max-width: 1200px; /* Adjust the maximum width of the container as needed */
   margin: 0 auto;
-  padding: 10px;
+  padding: 25px;
 }
 
 .contact-page-form {
   float: left;
   width: 50%; 
   justify-content: center;
-  padding: 20px;
+  padding: 25px;
   background-color: #f0f0f0;
   
 }
@@ -199,7 +202,7 @@ p {
 
 .contact-page-form form input,
 .contact-page-form form textarea {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -231,16 +234,15 @@ p {
 /* Show contact form button styles */
 
 #show-contact-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: center;
-  font-family: 'Passion One', cursive ;
-  font-size: 30px;
-  background-color: #5297e1; 
-  color: #fff; 
-  padding: 10px 20px; 
-  border: none; 
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+  font-family: 'Passion One', cursive;
+  font-size: 24px; /* Increase font size */
+  background-color: #5297e1;
+  color: #fff;
+  padding: 15px 30px; /* Increase padding for a larger button */
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
   opacity: 0.8;
 }
