@@ -151,6 +151,8 @@ p {
 
 /*STYLING FOR THE CONTACTS PAGE------------*/
 
+/* Styling for the map container */
+
 #map {
   width: 40%;
   height: 420px;
@@ -182,39 +184,63 @@ p {
   float: left;
   width: 50%;
   justify-content: center;
-  padding: 10px; /* Reduce padding for the form container */
+  padding: 30px; /* Adjust padding for the form container */
   background-color: #f0f0f0;
 }
 
 .contact-page-form h2 {
   font-size: 24px;
-  margin-bottom: 10px; /* Adjust margin for the heading */
+  margin-bottom: 10px;
 }
 
 .contact-page-form form label {
   display: block;
-  margin-bottom: 5px; /* Adjust margin for labels */
+  margin-bottom: 5px;
 }
 
 .contact-page-form form input,
 .contact-page-form form textarea {
-  width: 100%; /* Adjust input and textarea width */
-  padding: 8px; /* Adjust padding */
-  margin-bottom: 15px; /* Adjust margin */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .contact-page-form form button {
   background-color: #007BFF;
   color: #fff;
-  padding: 10px 5px;
+  padding: 8px 5px;
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px; 
 }
 
 .contact-page-form form button:hover {
   background-color: #0056b3;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .contact-page-form {
+    width: 100%;
+    padding: 10px; 
+  }
+
+  .contact-page-form h2 {
+    font-size: 20px; 
+  }
+
+  .contact-page-form form input,
+  .contact-page-form form textarea {
+    padding: 8px;
+    margin-bottom: 8px; 
+  }
+
+  .contact-page-form form button {
+    padding: 6px 4px; 
+    font-size: 12px; 
+  }
+}
+
 
 /* Hover effect styles */
 .btn-hover-effect {
