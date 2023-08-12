@@ -104,6 +104,37 @@ function stopTimer() {
   });
   
   
+  //-------------------------------FLIP CARDS
+
+ 
+  $(document).ready(function() {
+    $(".flip-card").hover(
+      function() { // Mouse over
+        $(this).addClass("hovered");
+      },
+      function() { // Mouse out
+        $(this).removeClass("hovered");
+      }
+    );
+  
+    $(".flip-card").click(function() {
+      $(this).toggleClass("flipped");
+    
+      if ($(this).hasClass("flipped")) {
+        // Expand the message and rotate when flipped
+        $(this).find(".flip-card-back p").css({
+          transform: "scale(1.1) rotateY(180deg)",
+          transition: "transform 0.5s ease-in-out"
+        });
+      } else {
+        // Reset the message scale and rotation when flipped back
+        $(this).find(".flip-card-back p").css({
+          transform: "scale(1) rotateY(0deg)",
+          transition: "transform 0.5s ease-in-out"
+        });
+      }
+    });
+  });
   
   
 

@@ -360,3 +360,47 @@ body {
   text-align: center;
   color: #071013;
 }
+
+/* Styling for the MORE... flipcard section */
+
+.flip-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flip-card {
+  width: calc(33.33% - 40px);
+  margin: 20px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  backface-visibility: hidden;
+  border: 1px solid #ddd;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
