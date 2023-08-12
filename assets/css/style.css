@@ -318,7 +318,9 @@ body {
 }
 
 /* Styling for the more page */
+
 /* Style for the video section */
+
 .video-section {
   display: flex;
   flex-wrap: wrap;
@@ -328,9 +330,9 @@ body {
   padding: 20px;
 }
 
-/* Style for each video container */
+
 .video-container {
-  width: calc(33.33% - 20px); /* Three videos per row */
+  width: calc(33.33% - 20px); 
   margin: 10px;
 }
 
@@ -339,10 +341,20 @@ body {
   height: auto;
 }
 
-/* Apply media query for smaller screens */
 @media (max-width: 768px) {
   .video-container {
-    width: 100%; /* Videos take full width on smaller screens */
+    width: 100%; 
   }
+}
+
+/* Style for the content section */
+
+.content-section {
+  color: #1f3937;
+  font-size: large;
+  text-align: center;
+  justify-content: center;
+  
+  padding: 20px;
 }
 
