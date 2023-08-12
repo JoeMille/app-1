@@ -179,58 +179,143 @@ p {
 
 /* Styling for the map container */
 
-#map {
-  width: 40%;
-  height: 420px;
-  background-color: rgb(69, 29, 201);
-  margin: 0 auto; /* Center horizontally */
+#map-container {
   display: flex;
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center vertically */
-  padding: 10px; /* Add padding around the map container */
+  justify-content: flex-start; /* Align content to the left side */
+  align-items: flex-start; /* Align content to the top */
+  padding: 10px;
 }
 
+#map {
+  width: 60%; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  margin-left: auto; /* Push the map to the right */
+}
 
 
 /* styles for contact form */
+body {
+  font-family: 'Passion One', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
 
-.contact-menu {
-  font-family: 'passion one', cursive;
-  font-size: 30px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color:  rgb(81, 13, 145);
-  color: #fff;
-  width: 200px;
-  height: 100vh;
+.text-area-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 
-.menu-item {
-  padding: 10px;
+.text-area {
+  border: 2px solid #db2323;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
   cursor: pointer;
-  display: flex;
-  align-items: center;
 }
 
-.menu-item i {
-  margin-right: 10px;
+.text-area i {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #db2323;
 }
 
-.content {
-  font-family: 'passion one', cursive;
+.text-area h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.text-area p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
   display: none;
-  padding: 10px; /* Adjusted padding */
-  margin: 10px 0; /* Adjusted margin */
-  margin-left: 220px; /* To create space for the menu */
-  background-color: #f0f0f0;
-  max-height: 60vh; /* Adjusted max-height */
-  overflow-y: auto; /* Add scroll if content overflows */
 }
+
+.text-area:hover {
+  border-color: #007BFF;
+  color: #007BFF;
+}
+
+.text-area:hover p {
+  display: block;
+}
+JavaScript (script.js):
+javascript
+Copy code
+$(document).ready(function() {
+  $(".text-area").click(function() {
+    $(".text-area p").hide();
+    $(this).find("p").show();
+  });
+});
+In this example, when you click on a text area, it will reveal the hidden paragraph content, and hovering over the text area will change its border color and text color. Each text area has a Font Awesome icon, a title, and boilerplate content. You can customize the content and styling as needed.
+
+
+
+
+User
+remove the body section of the stykesheet and just have all the properties inside the text area
+ChatGPT
+Sure, here's the modified CSS code with the properties moved into the .text-area class:
+
+css
+Copy code
+.text-area {
+  border: 2px solid #db2323;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Passion One', cursive;
+}
+
+.text-area i {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #db2323;
+}
+
+.text-area h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.text-area p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+  display: none;
+}
+
+.text-area:hover {
+  border-color: #007BFF;
+  color: #007BFF;
+}
+
+.text-area:hover p {
+  display: block;
+}
+Now, all the properties are contained within the .text-area class, and the body section has been removed from the stylesheet.
+
+
+
+
+
+
+Regenerate
+
+
 
 /* STYLING FOR THE FOOTER */
 

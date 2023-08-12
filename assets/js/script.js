@@ -103,16 +103,9 @@ function stopTimer() {
   
  
   $(document).ready(function() {
-    $(".menu-item").click(function() {
-      var target = $(this).data("target");
-      $(".content").hide();
-      $("#" + target).show();
-    });
-  
-    $(document).click(function(e) {
-      if (!$(e.target).closest('.contact-menu, .content').length) {
-        $(".content").hide();
-      }
+    $(".text-area").click(function() {
+      $(".text-area p").hide();
+      $(this).find("p").show();
     });
   });
   
