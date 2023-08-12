@@ -124,7 +124,22 @@ function stopBackgroundAudio() {
     });
   });
   
-  
-  
+  //-------------------------------GAME
 
+  document.addEventListener('DOMContentLoaded', function() {
+    const choices = document.querySelectorAll('.choice');
+  
+    choices.forEach(choice => {
+      choice.addEventListener('click', function() {
+        const question = this.closest('.question');
+        const answer = question.querySelector('.answer');
+  
+        if (this.classList.contains('correct')) {
+          answer.style.display = 'block';
+          question.style.pointerEvents = 'none'; // Prevent further clicks on this question
+          question.style.opacity = 0.7; // Dim the question text
+        }
+      });
+    });
+  });
   
