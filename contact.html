@@ -8,12 +8,12 @@
     <title>Meditation App</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery library -->
+    <script src="script.js"></script> <!-- Include your jQuery script file -->
   </head>
   <body>
-    <header id="main-page-header">
+    <header class="contact-page-header">
       <h1>Head Set</h1>
-      <h2>Meditation Tool</h2>
     </header>
 
     <nav class="main-nav">
@@ -23,61 +23,34 @@
             <li><a href="meditation.html">Meditate...</a></li>
         </ul>
     </nav>
-
-    <div id ="contact-us-information">
-      <h2>Thank you for using our interactive meditation timer!</h3>
-      <h3>As well as a free tool for centering yourself for the days hurdles, we offer services in person</h1>
-      <h4>For more information, come find us: 107 Ogwell rd, Newton Abbott, TQ12 5AQ</h4>
-
-    </div>
-
    
 
   <!--Code area for the Map Section of page -->
     
   <div id="map"></div>
 
-  <!--Code area for the Contact Form Section of page -->
+  <!--Code area for the Menu Section of page -->
 
-
-  <button id="show-contact-form" class="btn-hover-effect">CLICK HERE TO CONTACT US</button>
-    
-  <div class="contact-form-container">
-    <div class="contact-page-form">
-        <h2>Contact Us</h2><i class="fa-solid fa-input-text"></i>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
-
-            <button type="submit" class="btn-hover-effect">Submit</button>
-        </form>
-    </div>
-</div>
-
-  <div class="contact-content">
-    <p></p>
+  <div class="contact-menu">
+    <div class="menu-item" data-target="contact-info"><i class="fas fa-address-card"></i>Contact Info</div>
+    <div class="menu-item" data-target="about-us"><i class="fas fa-info-circle"></i>About Us</div>
+    <div class="menu-item" data-target="social-media"><i class="fab fa-facebook"></i>Social Media</div>
   </div>
 
-  <footer class="main-footer">
-    <div class="social-links">
-      <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-      <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-      <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-    </div>
-    <p>&copy; Head Set Enterprise 2023 </p>
-  </footer>
-
-
+  <div class="content" id="contact-info">
+    <p>Contact information content goes here...</p>
+  </div>
+  <div class="content" id="about-us">
+    <p>About us content goes here...</p>
+  </div>
+  <div class="content" id="social-media">
+    <p>Social media content goes here...</p>
+  </div>
+  
   
 
     
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFBXiZcSMP4dehX6pUceBUlugBcmptEEE&callback=initMap" async defer></script>
     <script src="/assets/js/script.js"></script>
   </body>

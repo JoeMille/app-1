@@ -101,14 +101,23 @@ function stopTimer() {
   
   //-------------------------------CONTACT FORM
   
+ 
   $(document).ready(function() {
-    $(".contact-form-container").slideUp(0);
+    $(".menu-item").click(function() {
+      var target = $(this).data("target");
+      $(".content").hide();
+      $("#" + target).show();
+    });
   
-    $("#show-contact-form").click(function() {
-      $(".contact-form-container").slideToggle();
+    $(document).click(function(e) {
+      if (!$(e.target).closest('.contact-menu, .content').length) {
+        $(".content").hide();
+      }
     });
   });
-
+  
+  
+  
   
 
   
