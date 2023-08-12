@@ -246,27 +246,7 @@ body {
 .text-area:hover p {
   display: block;
 }
-JavaScript (script.js):
-javascript
-Copy code
-$(document).ready(function() {
-  $(".text-area").click(function() {
-    $(".text-area p").hide();
-    $(this).find("p").show();
-  });
-});
-In this example, when you click on a text area, it will reveal the hidden paragraph content, and hovering over the text area will change its border color and text color. Each text area has a Font Awesome icon, a title, and boilerplate content. You can customize the content and styling as needed.
 
-
-
-
-User
-remove the body section of the stykesheet and just have all the properties inside the text area
-ChatGPT
-Sure, here's the modified CSS code with the properties moved into the .text-area class:
-
-css
-Copy code
 .text-area {
   border: 2px solid #db2323;
   padding: 20px;
@@ -306,15 +286,6 @@ Copy code
 .text-area:hover p {
   display: block;
 }
-Now, all the properties are contained within the .text-area class, and the body section has been removed from the stylesheet.
-
-
-
-
-
-
-Regenerate
-
 
 
 /* STYLING FOR THE FOOTER */

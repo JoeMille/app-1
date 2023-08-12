@@ -101,11 +101,10 @@ function stopTimer() {
   
   //-------------------------------CONTACT FORM
   
- 
+  
   $(document).ready(function() {
     $(".text-area").click(function() {
-      $(".text-area p").hide();
-      $(this).find("p").show();
+      $(this).find("p").slideToggle(); // Toggle the content of the clicked text area
     });
   });
   
