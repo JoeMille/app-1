@@ -195,11 +195,12 @@ p {
 /* styles for contact form */
 
 .contact-menu {
-  font-family: 'Passion One', cursive;
+  font-family: 'passion one', cursive;
+  font-size: 30px;
   position: fixed;
   left: 0;
   top: 0;
-  background-color: #007BFF;
+  background-color:  rgb(81, 13, 145);
   color: #fff;
   width: 200px;
   height: 100vh;
@@ -221,6 +222,7 @@ p {
 }
 
 .content {
+  font-family: 'passion one', cursive;
   display: none;
   padding: 10px; /* Adjusted padding */
   margin: 10px 0; /* Adjusted margin */
