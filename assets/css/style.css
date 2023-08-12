@@ -350,3 +350,13 @@ body {
 .video-container:hover {
   transform: scale(1.05);
 }
+
+
+/* Styling for the MORE... page content */
+
+.content-section {
+  font-family: 'Passion One', cursive;
+  font-size: larger;
+  text-align: center;
+  color: #071013;
+}
