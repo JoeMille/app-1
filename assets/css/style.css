@@ -287,12 +287,6 @@ body {
   display: block;
 }
 
-.map-container {
-  width: 100%;
-  height: 300px;
-  border: 2px solid red; /* Red border for illustration */
-  margin-top: 20px;
-}
 /* STYLING FOR THE FOOTER */
 
 /* Footer Styling */
@@ -321,4 +315,38 @@ body {
 .main-footer p {
   font-size: 14px;
   color: #666;
+}
+
+/* Styling for the more page */
+
+/* styles.css */
+body {
+  font-family: 'Passion One', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.video-section {
+  padding-left: 5%;
+  padding-top: 5%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.video-container {
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+.video-container:hover {
+  transform: scale(1.05);
 }
