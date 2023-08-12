@@ -318,52 +318,8 @@ body {
 }
 
 /* Styling for the more page */
-
-/* styles.css */
-body {
-  font-family: 'Passion One', cursive;
-  margin: 0;
-  padding: 0;
-}
-
+/* Style for the video section */
 .video-section {
-  padding-left: 5%;
-  padding-top: 5%;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-}
-
-.video-container {
-  width: 300px;
-  height: 200px;
-  margin-right: 20px;
-  transition: transform 0.3s ease-in-out;
-  overflow: hidden;
-}
-
-.video {
-  width: 100%;
-  height: 100%;
-}
-
-.video-container:hover {
-  transform: scale(1.05);
-}
-
-
-/* Styling for the MORE... page content */
-
-.content-section {
-  font-family: 'Passion One', cursive;
-  font-size: larger;
-  text-align: center;
-  color: #071013;
-}
-
-/* Styling for the MORE... flipcard section */
-
-.flip-card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -372,35 +328,21 @@ body {
   padding: 20px;
 }
 
-.flip-card {
-  width: calc(33.33% - 40px);
-  margin: 20px;
-  perspective: 1000px;
+/* Style for each video container */
+.video-container {
+  width: calc(33.33% - 20px); /* Three videos per row */
+  margin: 10px;
 }
 
-.flip-card-inner {
+.video-container iframe {
   width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: transform 0.5s;
+  height: auto;
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+/* Apply media query for smaller screens */
+@media (max-width: 768px) {
+  .video-container {
+    width: 100%; /* Videos take full width on smaller screens */
+  }
 }
 
-.flip-card-front,
-.flip-card-back {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  backface-visibility: hidden;
-  border: 1px solid #ddd;
-}
-
-.flip-card-back {
-  transform: rotateY(180deg);
-}
