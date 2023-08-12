@@ -113,6 +113,12 @@ function stopBackgroundAudio() {
   
   //-------------------------------FLIP CARDS
   $(document).ready(function() {
+    $(".flip-card").mouseenter(function() {
+      $(this).addClass("hovered");
+    }).mouseleave(function() {
+      $(this).removeClass("hovered");
+    });
+  
     $(".flip-card").click(function() {
       $(this).toggleClass("clicked");
     });
