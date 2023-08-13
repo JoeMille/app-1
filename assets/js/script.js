@@ -86,6 +86,17 @@ function stopBackgroundAudio() {
   }
 }
 
+//-------------------------------timer function
+
+// Circular progress
+const fill = document.querySelector(".fill");
+
+function updateCircularProgress() {
+  const progress = (timerDuration / (minutes * 60)) * 100;
+  fill.style.transform = `scaleY(${1 - (progress / 100)})`;
+}
+
+
 
 
   //--------------------------GOOGLE MAPS ON FIND US PAGE
@@ -110,36 +121,4 @@ function stopBackgroundAudio() {
     });
   });
   
-  
-  //-------------------------------FLIP CARDS
-  $(document).ready(function() {
-    $(".flip-card").mouseenter(function() {
-      $(this).addClass("hovered");
-    }).mouseleave(function() {
-      $(this).removeClass("hovered");
-    });
-  
-    $(".flip-card").click(function() {
-      $(this).toggleClass("clicked");
-    });
-  });
-  
-  //-------------------------------GAME
-
-  document.addEventListener('DOMContentLoaded', function() {
-    const choices = document.querySelectorAll('.choice');
-  
-    choices.forEach(choice => {
-      choice.addEventListener('click', function() {
-        const question = this.closest('.question');
-        const answer = question.querySelector('.answer');
-  
-        if (this.classList.contains('correct')) {
-          answer.style.display = 'block';
-          question.style.pointerEvents = 'none'; // Prevent further clicks on this question
-          question.style.opacity = 0.7; // Dim the question text
-        }
-      });
-    });
-  });
   
