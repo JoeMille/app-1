@@ -1,11 +1,11 @@
-# app-1
-# Headset
 
-![Screenshot]()
+# Headset Meditation App
+
+![Screenshot](//assets/images/stones-water.jpeg)
 
 
 ## Description
-
+The following project is a false page for meditation application. The purpose of the application is to give users a tool to count out short meditation sessions
 
 ## User Stories
 
