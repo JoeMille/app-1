@@ -185,7 +185,6 @@ p {
 /* Styling for the map container */
 
 #map {
-  padding-left: 100px;
   width: 400px;
   height: 300px;
 }
@@ -230,10 +229,6 @@ p {
   display: none;
 }
 
-.text-area:hover {
-  border-color: #007BFF;
-  color: #007BFF;
-}
 
 .text-area:hover p {
   display: block;
