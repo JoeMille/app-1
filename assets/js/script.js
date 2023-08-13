@@ -100,17 +100,16 @@ function updateCircularProgress() {
 
 
   //--------------------------GOOGLE MAPS ON FIND US PAGE
-
-  function initMap() {
-    // Create a map centered at a specific location
-    var mapCenter = { lat: 40.700802, lng: -73.987602 };
-    var mapOptions = {
-      center: mapCenter,
-      zoom: 12
-    };
-    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-  }
   
+  function initMap() {
+    const mapOptions = {
+        center: { lat: 37.7749, lng: -122.4194 }, // Centered at San Francisco
+        zoom: 10,
+    };
+
+    const map = new google.maps.Map(document.getElementById('map'), mapOptions);
+}
+
   
   //-------------------------------CONTACT FORM
   
