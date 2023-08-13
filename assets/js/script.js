@@ -103,14 +103,26 @@ function updateCircularProgress() {
   
   function initMap() {
     const mapOptions = {
-        center: { lat: 37.7749, lng: -122.4194 }, // Centered at San Francisco
+        center: { lat: 50.52082263846397, lng: -3.621800093889851 },
         zoom: 10,
     };
 
     const map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+    const locations = [
+        { lat: 50.52082263846397, lng: -3.621800093889851 },
+        { lat: 50.49949156451669, lng: -3.5785696369530315 },
+        { lat: 50.544380460226265, lng: -3.584592617073369 }
+    ];
+
+    for (const location of locations) {
+        new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
 }
 
-  
   //-------------------------------CONTACT FORM
   
   
