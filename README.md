@@ -28,7 +28,7 @@ The main purpose of the design is to highlight a relaxed aesthetic and provide a
 to take up to five minutes from the users daay to meditate. With the use of varying properties and functions, demonstrating
 a fundamental understanding of Javascript concepts as well as HTML and CSS literacy. Using Google Maps API, Bootstrap and Fontawesome.
 ![Screenshot](first-function.png)
-![Screenshot](timer-function.png)
+![Screenshot](-timer-function.png)
 
 ## Testing
 
