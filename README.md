@@ -63,7 +63,9 @@ Before my Javascript could run properly, all syntax errors preventing code to ex
 ## Testing Further...
 
 ![Screenshot](js-lint-screenshot.png)
-As well as Developer Tools, Jest, and online code testing tools all code for the Javascript was pushed through the incredibly helpful web-based code tester JS Lint. Once mostly all syntax errors and functions that were impeding other functions from working due to placement had been fixed, all files of the project were pushed through code beautifier tools.
+As well as Developer Tools, Jest, and online code testing tools all code for the Javascript was pushed through the incredibly helpful web-based code tester JS Lint. Once mostly all syntax errors and functions that were impeding other functions from working due to placement had been fixed, all files of the project were pushed through code beautifier tools. By further using Jest to run mock tests on code within my Javascript file, functions could be tested externally and one by one to make sure they worked in succession. 
+
+![Screenshot](mock-tests.png)
 
 
 
