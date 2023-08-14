@@ -1,7 +1,7 @@
 
 # Headset Meditation App
 
-![Screenshot](//assets/images/stones-water.jpeg)
+![Screenshot](Head-Space-title.png)
 
 
 ## Description
