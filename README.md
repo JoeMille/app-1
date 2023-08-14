@@ -29,7 +29,7 @@ The main purpose of the design is to highlight a relaxed aesthetic and provide a
 to take up to five minutes from the users daay to meditate. With the use of varying properties and functions, demonstrating
 a fundamental understanding of Javascript concepts as well as HTML and CSS literacy. Using Google Maps API, Bootstrap and Fontawesome.
 ![Screenshot](first-function.png)
-![Screenshot](-timer-function.png)
+
 
 ## Testing
 
@@ -85,7 +85,8 @@ To ammend or add to, follow these simple steps:
 
 ## Summary
 
-T
+Although the syllabus for this project to most students could be described as novice, the second installment of Milestone Projects comes after numerous attempts and fails due to extenuating circumstances. The hope and design behind the Head Set meditation application is not just to provider the user with a simple, easy-to-operate meditation timer; the main intent is to provide working understanding of the HTML CSS and mainly, Javascript, code used throughout. After much trial and failure, and tremendous amounts of repeating lessons and tutorials the Head Set meditation app functions and views as intended across all computing set ups and hopefully demonstrates an understanding of the Javascript concepts it embodies.  
+![Screenshot](-timer-function.png)
 
 
 
