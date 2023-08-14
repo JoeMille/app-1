@@ -1,5 +1,3 @@
-
-
 const messages = [
   "Take three deep breaths....",
   "Focus on your breathing....",
@@ -79,6 +77,26 @@ function stopTimer() {
   updateTimerDisplay();
   stopBackgroundAudio();
 }
+
+function resetTimer() {
+  clearInterval(timer);
+  timerDuration = 0;
+  messageIndex = 0;
+  updateTimerDisplay();
+  showMessage(messages[messageIndex]);
+  stopBackgroundAudio();
+}
+
+function stopBackgroundAudio() {
+  if (backgroundAudio) {
+    backgroundAudio.pause();
+  }
+}
+
+// Add event listener for the "Reset" button
+document.querySelector(".reset-button").addEventListener("click", resetTimer);
+
+
 
 // STOP AUDIO FUNCTION
 
