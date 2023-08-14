@@ -26,7 +26,7 @@ From the perspective of the developer the main objectives of Head Set meditation
 * Primarily, to showcase a product which relies on custom Javascript for its main function 
 * Executes its purpose as intended 
 * Is enjoyable and similarly easy to navigate across all devices 
-* Gives users a service free of charge for a function that could be beneficial when beginnign their meditative journey.
+* Gives users a service free of charge for a function that could be beneficial when beginning their meditative journey.
 
 
 
@@ -100,7 +100,7 @@ Although the syllabus for this project to most students could be described as no
 
 witht the finished product, hopefully quite far from where the project began. 
 
-![Screenshot]()
+![Screenshot](final-screenshot.png)
 
 
 ## Author
