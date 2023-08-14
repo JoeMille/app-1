@@ -19,17 +19,25 @@ This project acts as a simple meditation timer which when activated provides a c
 to concentrate on in the form of messages displayed to the user. The goals of this free online tool are as listed from the 
 perspective of a prospective user who aims to find a short window of time in the day to center themselves and meditate:
 * Replace the need for a paid meditation app, these are costly and provide the same basic service.
-* Showcase an easy to use site with simple and obvious functionality.
-* use of attractive and calm colours and aesthetics so as not to distract from the generated messages during timer.
-* 
+* Find content on each section of the site easy to navigate and quick to understand.
+* Be able to locate the fictional owners easy when viewing the contact page.
+
+From the perspective of the developer the main objectives of Head Set meditation application are:
+* Primarily, to showcase a product which relies on custom Javascript for its main function 
+* Executes its purpose as intended 
+* Is enjoyable and similarly easy to navigate across all devices 
+* Gives users a service free of charge for a function that could be beneficial when beginnign their meditative journey.
+
 
 
 ## Design Choices
 The main purpose of the design is to highlight a relaxed aesthetic and provide a comfortable digital environment 
 to take up to five minutes from the users daay to meditate. With the use of varying properties and functions, demonstrating
 a fundamental understanding of Javascript concepts as well as HTML and CSS literacy. Using Google Maps API, Bootstrap and Fontawesome.
-![Screenshot](first-function.png)
+![Screenshot](timer-screenshot.png)
 
+All functioning parts of the site have been built with Javascript, and the project began based entirely around the first example function
+![Screenshot](first-function.png)
 
 ## Testing
 
@@ -46,8 +54,7 @@ Once my Javascript was working as expected (or near enough working) it was time 
 
 Moving onto more thorough testing of deployed functions to my page, Google Maps which appears shortly on the Contacts page refused to open.
 
-<img align="right" src="gmaps-java-error.png" alt="Google Maps Error Screenshot" width="300" height="100>
-
+![Screenshot](gmaps-java-error.png)
 
 ![Screenshot](jest-java-error.png)
 Before my Javascript could run properly, all syntax errors preventing code to execute were dealt with leaving the front-end of the meditation application working in order. 
@@ -90,6 +97,9 @@ To ammend or add to, follow these simple steps:
 Although the syllabus for this project to most students could be described as novice, the second installment of Milestone Projects comes after numerous attempts and fails due to extenuating circumstances. The hope and design behind the Head Set meditation application is not just to provider the user with a simple, easy-to-operate meditation timer; the main intent is to provide working understanding of the HTML CSS and mainly, Javascript, code used throughout. After much trial and failure, and tremendous amounts of repeating lessons and tutorials the Head Set meditation app functions and views as intended across all computing set ups and hopefully demonstrates an understanding of the Javascript concepts it embodies.  
 ![Screenshot](-timer-function.png)
 
+witht the finished product, hopefully quite far from where the project began. 
+
+![Screenshot]()
 
 
 ## Author
