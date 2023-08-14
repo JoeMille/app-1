@@ -1,11 +1,8 @@
 
 # Headset Meditation App
 
-<<<<<<< HEAD
-![Screenshot](/)
-=======
 ![Screenshot](Head-Space-title.png)
->>>>>>> 62abaf9fe5b69678b783e8a4223bcffde07da245
+
 
 
 ## Description
@@ -38,7 +35,7 @@ a fundamental understanding of Javascript concepts as well as HTML and CSS liter
 
 ![Screenshot](first-test.png)
 
-Testing JavaScript using Google Developer Tools provides developers with a powerful set of debugging and profiling tools to inspect code execution, track variable values, and analyze performance bottlenecks. This enables precise identification and resolution of issues, contributing to the creation of robust and efficient web applications. As always the first test was a fail due an AdBlock software preventing my Javascript file from running.
+Testing JavaScript using Google Developer Tools provides developers with a powerful set of debugging and profiling tools to inspect code execution, track variable values, and analyze performance bottlenecks. This enabled precise identification and resolution of issues. As always, the first test was a fail due an AdBlock software preventing the Javascript file from running.
 
 ![Screenshot](lighthouse-fail.png)
 As expected these testing procedures threw up more and more issues as the project became larger. 
@@ -61,7 +58,7 @@ As well as Developer Tools, Jest, and online code testing tools all code for the
 
 
 ### Environment Testing 
-
+Environment testing involved thoroughly assessing functionality and performance across diverse computing setups. This included testing the app on various operating systems, browsers, and devices such as smartphones, tablets, and desktop computers. Continuously resorting to developer tools to help with media query placement and sizing issues. Compatibility issues related to different screen sizes, resolutions, and interaction methods. Additionally, testing the app's audio playback and synchronization with background sounds, as well as evaluating its responsiveness under different network conditions, ensures a seamless meditation experience for users across different environments. By conducting thorough environment testing, the meditation timer application has been optimized to provide consistent performance and user satisfaction, regardless of the platform or device it is used on.
 
 
 ## Deployment (further)
@@ -110,3 +107,4 @@ ChefJoeMiller1992@gmail.com
 * Bootstrap
 * Font-Awesome
 * Google Fonts
+* Google Maps API
