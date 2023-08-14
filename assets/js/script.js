@@ -93,10 +93,7 @@ function stopBackgroundAudio() {
   }
 }
 
-// Add event listener for the "Reset" button
 document.querySelector(".reset-button").addEventListener("click", resetTimer);
-
-
 
 // STOP AUDIO FUNCTION
 
@@ -109,7 +106,7 @@ function stopBackgroundAudio() {
 
 
 
-  //--------------------------GOOGLE MAPS ON FIND US PAGE
+  // GOOGLE MAPS 
   
   function initMap() {
     const mapOptions = {
@@ -133,12 +130,12 @@ function stopBackgroundAudio() {
     }
 }
 
-  //-------------------------------CONTACT FORM
+  // CONTACT FORM
   
   
   $(document).ready(function() {
     $(".text-area").click(function() {
-      $(this).find("p").slideToggle(); // Toggle the content of the clicked text area
+      $(this).find("p").slideToggle(); 
     });
   });
   
