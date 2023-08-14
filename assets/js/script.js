@@ -6,10 +6,10 @@ const messages = [
   "Continue to breathe deeply....",
   "Focus on the quiet....",
   "Keep your shoulders relaxed and your head high....",
-  "Continue to breathe deeply, clearing any further thoughts from your mind....",
+"Continue to breathe deeply, clearing any further thoughts from your mind....",
   "Bring your hands together and stretch to the sky....",
   "Lean your head back and hold your breath for five seconds....",
-  "Close your eyes and imagine immersing into calm water....",
+  "Close your eyes and imagine immersing into calm water...."
 ];
 
 let timer;
@@ -88,12 +88,6 @@ function resetTimer() {
   stopBackgroundAudio();
 }
 
-function stopBackgroundAudio() {
-  if (backgroundAudio) {
-      backgroundAudio.pause();
-  }
-}
-
 // STOP AUDIO FUNCTION
 
 function stopBackgroundAudio() {
@@ -102,7 +96,7 @@ function stopBackgroundAudio() {
   }
 }
 
-// GOOGLE MAPS 
+// GOOGLE-MAPS
 
 function initMap() {
   const mapOptions = {
@@ -110,10 +104,10 @@ function initMap() {
           lat: 50.52082263846397,
           lng: -3.621800093889851
       },
-      zoom: 10,
+      zoom: 10
   };
 
-  const map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  const map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
   const locations = [{
           lat: 50.52082263846397,
