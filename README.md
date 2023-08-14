@@ -37,19 +37,27 @@ a fundamental understanding of Javascript concepts as well as HTML and CSS liter
 ## Testing
 
 ![Screenshot](first-test.png)
-![Screenshot](NPM-testing.png)
-![Screenshot](gmaps-java-error.png)
-![Screenshot](jest-java-error.png)
+
+Testing JavaScript using Google Developer Tools provides developers with a powerful set of debugging and profiling tools to inspect code execution, track variable values, and analyze performance bottlenecks. This enables precise identification and resolution of issues, contributing to the creation of robust and efficient web applications. As always the first test was a fail due an AdBlock software preventing my Javascript file from running.
+
 ![Screenshot](lighthouse-fail.png)
+As expected these testing procedures threw up more and more issues as the project became larger. 
 
-Jest 
+![Screenshot](NPM-testing.png)
 
-Google lighthouse 
+Once my Javascript was working as expected (or near enough working) it was time to begin testing with Jest. The first test was carried out on a simple maths function to check it was working. 
 
-JS Linter 
+![Screenshot](gmaps-java-error.png)
+Moving onto more thorough testing of deployed functions to my page, GoogleMaps which appears shortly on the Contacts page refused to open.
+
+![Screenshot](jest-java-error.png)
+Before my Javascript could run properly, all syntax errors preventing code to execute were dealt with leaving the front-end of the mediattion application working in order. 
 
 
 
+## Testing Further...
+
+As well as Developer Tools, Jest, and online code testing tools all code for the Javascript was pushed through the incredibly helpful web-based code tester JS Lint. Once all syntax errors and functions that were impeding other functions from working due to placement had been fixed, all files of the project were pushed through code beautifier tools.
 
 
 ### Environment Testing 
