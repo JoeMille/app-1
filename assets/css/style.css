@@ -49,14 +49,17 @@ body {
 }
 
 .main-nav a {
+  position: relative;
   display: block;
   color: #fcfcfc;
   text-decoration: none;
   padding: 10px;
+  transition: color 0.3s, border-bottom-color 0.3s;
 }
 
 .main-nav a:hover {
-  background-color: rgb(223, 53, 15);
+  color: #fff; /* Change text color on hover */
+  border-bottom: 3px solid #db2323; /* Add bottom border on hover */
 }
 
 @media (max-width: 768px) {
