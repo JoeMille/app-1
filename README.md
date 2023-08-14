@@ -27,9 +27,17 @@ perspective of a prospective user who aims to find a short window of time in the
 The main purpose of the design is to highlight a relaxed aesthetic and provide a comfortable digital environment 
 to take up to five minutes from the users daay to meditate. With the use of varying properties and functions, demonstrating
 a fundamental understanding of Javascript concepts as well as HTML and CSS literacy. Using Google Maps API, Bootstrap and Fontawesome.
-
+![Screenshot](first-function.png)
+![Screenshot](timer-function.png)
 
 ## Testing
+
+![Screenshot](first-test.png)
+![Screenshot](NPM-testing.png)
+![Screenshot](gmaps-java-error.png)
+![Screenshot](jest-java-error.png)
+![Screenshot](lighthouse-fail.png)
+
 Jest 
 
 Google lighthouse 
