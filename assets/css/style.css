@@ -59,7 +59,6 @@ body {
   background-color: rgb(223, 53, 15);
 }
 
-/* Media Query for Small Screens */
 @media (max-width: 768px) {
   .main-nav {
     flex-direction: column;
@@ -114,21 +113,53 @@ p {
   line-height: 1.6;
 }
 
-/* Styles for meditation page */
-
-.meditation-page-header {
-  background-image: url(/assets/images/blue-forest-2.jpeg);
-  background-size: cover; /* Stretch to cover without blurring */
-  background-repeat: no-repeat;
-  background-position: center; /* Center the image horizontally and vertically */
-  text-align: center;
-  font-family: 'Bungee Spice', cursive;
-  font-size: 30px;
-  border: 4px solid #db2323;
-  border-style: double;
+@media (max-width: 768px) {
+  .box {
+    flex-basis: 100%; 
+  }
 }
 
-/* STYLING FOR THE MEDITATION PAGE TIMER*/
+/* STYLING FOR THE FOOTER */
+
+.main-footer {
+  font-family: 'Passion One', cursive;
+  background-color: #f0f0f0;
+  padding: 10px;
+  padding-bottom: 1px;
+  text-align: center;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.social-links {
+  margin-bottom: 10px;
+}
+
+.social-link {
+  font-size: 24px;
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.main-footer p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+/* MEDITATION PAGE */
+
+.meditation-paragraph {
+  font-family: 'Passion One', cursive;
+  font-size: 30px;
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+}
+
+/* MEDITATION PAGE TIMER*/
 
 .timer-container {
   font-family: 'Passion One', cursive;
@@ -138,21 +169,30 @@ p {
   margin: 20px;
 }
 
-.timer-container button{
+.timer-container button {
   font-family: 'Passion One', cursive;
   font-size: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-/* Button container styles */
+
+.timer-container button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .button-container {
   font-family: 'Passion One', cursive;
-  
   display: flex;
-  gap: 10px; 
-  margin-top: 10px; 
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .timer-display {
@@ -163,7 +203,8 @@ p {
 }
 
 
-/* Styling for the timer messages */
+
+/* TIMER MESSAGES */
 .message {
   background-image: url(/assets/images/stones-water.jpeg);
   background-repeat: no-repeat;
@@ -176,39 +217,16 @@ p {
   font-weight: bold;
 }
 
-/*STYLING FOR MEDITATION PAGE*/
+/* CONTACTS PAGE------------*/
 
-.meditation-paragraph {
-  font-family: 'Passion One', cursive;
-  font-size: 30px;
-  padding-top: 5%;
-  padding-left: 3%;
-  padding-right: 3%;
-  text-align: center;
-}
-
-/*STYLING FOR THE CONTACTS PAGE------------*/
-
-.contact-page-header {
-  background-image: url(/assets/images/blue-forest-2.jpeg);
-  background-size: cover; /* Stretch to cover without blurring */
-  background-repeat: no-repeat;
-  background-position: center; /* Center the image horizontally and vertically */
-  text-align: center;
-  font-family: 'Bungee Spice', cursive;
-  font-size: 30px;
-  border: 4px solid #db2323;
-  border-style: double;
-}
-
-/* Styling for the map container */
+/* MAP CONTAINER */
 
 #map {
   width: 400px;
   height: 300px;
 }
 
-/* styles for contact and info cards */
+/* CONTACT & INFO CARDS */
 
 .text-area-container {
   display: flex;
@@ -249,172 +267,6 @@ p {
 }
 
 
-/* STYLING FOR THE FOOTER */
-
-/* Footer Styling */
-.main-footer {
-  font-family: 'Passion One', cursive;
-  background-color: #f0f0f0;
-  padding: 5px 5px;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  opacity: 0.8;
-}
-
-.social-links {
-  margin-bottom: 10px;
-}
-
-.social-link {
-  font-size: 24px;
-  color: #333;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-/* Adjust the copyright text */
-.main-footer p {
-  font-size: 14px;
-  color: #666;
-}
-
-/* Styling for the more page */
-
-/* Style for the video section */
-
-.video-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
 
 
-.video-container {
-  width: calc(33.33% - 20px); 
-  margin: 10px;
-}
 
-.video-container iframe {
-  width: 100%;
-  height: auto;
-}
-
-@media (max-width: 768px) {
-  .video-container {
-    width: 100%; 
-  }
-}
-
-/* Style for the content section */
-
-.content-section {
-  color: #1f3937;
-  font-size: large;
-  text-align: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-/* Style for the flip card container */
-.flip-card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-
-.flip-card {
-  width: calc(33.33% - 20px);
-  margin: 10px;
-  perspective: 1000px;
-  cursor: pointer;
-  transform-style: preserve-3d;
-  transition: transform 0.5s;
-  height: 200px; 
-}
-
-
-.flip-card-inner {
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: transform 0.3s ease-in-out; 
-}
-
-
-.flip-card.clicked .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-
-.flip-card-front,
-.flip-card-back {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  backface-visibility: hidden;
-  border: 1px solid #ddd;
-  background-color: #fff;
-  color: #333;
-  font-size: 20px;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.flip-card-back {
-  transform: rotateY(180deg);
-}
-
-.flip-card:hover {
-  background-color: rgb(23, 196, 235);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-
-/* Styling for the Game */
-
-.quiz-container {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
-}
-
-.question {
-  margin-bottom: 20px;
-}
-
-.choices {
-  list-style-type: none;
-  padding: 0;
-}
-
-.choice {
-  cursor: pointer;
-  margin: 5px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.choice.correct {
-  background-color: #cfc;
-}
-
-.answer {
-  display: none;
-  font-weight: bold;
-}
