@@ -43,18 +43,17 @@ All functioning parts of the site have been built with Javascript, and the proje
 
 ![Screenshot](first-test.png)
 
-Testing JavaScript using Google Developer Tools provides developers with a powerful set of debugging and profiling tools to inspect code execution, track variable values, and analyze performance bottlenecks. This enabled precise identification and resolution of issues. As always, the first test was a fail due an AdBlock software preventing the Javascript file from running.
+Testing JavaScript using Google Developer Tools provides new developers with a powerful set of debugging and profiling tools to inspect code execution, track variable values, and analyze performance bottlenecks. This enabled precise identification and resolution of issues. As always, the first test was a fail due to an AdBlock software preventing the Javascript file from running.
 
 ![Screenshot](lighthouse-fail.png)
 As expected these testing procedures threw up more and more issues as the project became larger. 
 
 ![Screenshot](NPM-testing.png)
 
-Once my Javascript was working as expected (or near enough working) it was time to begin testing with Jest. The first test was carried out on a simple maths function to check it was working. 
-
-Moving onto more thorough testing of deployed functions to my page, Google Maps which appears shortly on the Contacts page refused to open.
+Once Javascript was working as expected (or near enough working) it was time to begin testing with Jest. The first test was carried out on a simple maths function to check it was working. 
 
 ![Screenshot](gmaps-java-error.png)
+Moving onto more thorough testing of deployed functions to my page, Google Maps which appears shortly on the Contacts page refused to open. This error took the longest to fix, as after moving across to Visual Studio Code, when previewing the page with an uncleared cache, Google Maps would vanish despite being properly placed. 
 
 ![Screenshot](jest-java-error.png)
 Before my Javascript could run properly, all syntax errors preventing code to execute were dealt with leaving the front-end of the meditation application working in order. 
