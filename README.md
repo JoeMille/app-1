@@ -14,8 +14,13 @@ fundamentals gathered during the creation of Milestone Project 1 had been largel
 designed to embody the principles of design taught in Project 1, was more focused towards writing leggible and functioning custom Javascript code which when deployed behaves as expected.  
 
 ## User Stories
-
-
+This project acts as a simple meditation timer which when activated provides a comforting background sound and a visual aid
+to concentrate on in the form of messages displayed to the user. The goals of this free online tool are as listed from the 
+perspective of a prospective user who aims to find a short window of time in the day to center themselves and meditate:
+* Replace the need for a paid meditation app, these are costly and provide the same basic service.
+* Showcase an easy to use site with simple and obvious functionality.
+* use of attractive and calm colours and aesthetics so as not to distract from the generated messages during timer.
+* 
 
 
 ## Design Choices
