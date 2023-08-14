@@ -5,15 +5,28 @@
 
 
 ## Description
-The following project is a false page for meditation application. The purpose of the application is to give users a tool to count out short meditation sessions
+The following project is a false page for a simple meditation application. 
+Using Javascript, HTML and CSS code for all three pages, as well as GooGle Maps API software. 
+The purpose of the Headset application is to showcase the understanding of fundamental JS HTML and CSS principles.
+By 
 
 ## User Stories
 
 
 ## Design Choices
+The main purpose of the design is to highlight a relaxed aesthetic and provide a comfortable digital environment 
+to take up to five minutes from the users daay to meditate. With the use of varying properties and functions, demonstrating
+a fundamental understanding of Javascript concepts as well as HTML and CSS literacy. Using Google Maps API, Bootstrap and Fontawesome.
 
 
 ## Testing
+Jest 
+
+Google lighthouse 
+
+JS Linter 
+
+
 
 
 

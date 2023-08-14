@@ -28,37 +28,56 @@ body {
 .main-nav {
   margin: 0;
   padding: 0;
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
-  height: 10vh; 
-  background-color: rgb(81, 13, 145); 
+  height: 10vh;
+  background-color: rgb(81, 13, 145);
   font-size: 50px;
   font-family: 'Passion One', cursive;
-
 }
 
 .main-nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; 
+  display: flex;
 }
 
 .main-nav li {
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 .main-nav a {
   display: block;
   color: #fcfcfc;
   text-decoration: none;
-  padding: 10px; 
+  padding: 10px;
 }
 
 .main-nav a:hover {
-  background-color:rgb(223, 53, 15)
+  background-color: rgb(223, 53, 15);
 }
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .main-nav {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
 
 /* Styling for the Homepage image and text boxes */
 
