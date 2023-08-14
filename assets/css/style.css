@@ -237,13 +237,6 @@ p {
 }
 /* CONTACTS PAGE------------*/
 
-/* MAP CONTAINER */
-
-#map {
-  width: 400px;
-  height: 300px;
-}
-
 /* CONTACT & INFO CARDS */
 
 .text-area-container {
@@ -292,6 +285,7 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url('your-image-url.jpg');
+  background-color: #fff;
   background-size: cover;
   padding: 20px;
   border: 2px solid #333; /* Add border styling */
@@ -307,4 +301,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* MAP CONTAINER */
+
+#map {
+  width: 400px;
+  height: 300px;
 }
