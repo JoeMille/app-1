@@ -1,14 +1,17 @@
 
 # Headset Meditation App
 
-![Screenshot](//assets/images/stones-water.jpeg)
+![Screenshot](/)
 
 
 ## Description
 The following project is a false page for a simple meditation application. 
-Using Javascript, HTML and CSS code for all three pages, as well as GooGle Maps API software. 
+Using Javascript, HTML and CSS code for all three pages, as well as Jquery and Google Maps API software. 
 The purpose of the Headset application is to showcase the understanding of fundamental JS HTML and CSS principles.
-By 
+By using lessons from Code Institute, Giraffe Academy, W3 Schools and a host of online rescources. 
+This project comes after a staggered halt to education for nearly a year, meaning that the majority of the HTML and CSS code 
+fundamentals gathered during the creation of Milestone Project 1 had been largely forgotten. The goal of this project although
+designed to embody the principles of design taught in Project 1, was more focused towards writing leggible and functioning custom Javascript code which when deployed behaves as expected.  
 
 ## User Stories
 
