@@ -19,8 +19,9 @@ let backgroundAudio;
 
 function startTimer(minutes) {
   if (timer) {
-    clearInterval(timer);
+      clearInterval(timer);
   }
+  document.querySelector(".reset-button").addEventListener("click", resetTimer);
 
   timerDuration = minutes * 60;
   updateTimerDisplay();
@@ -31,18 +32,18 @@ function startTimer(minutes) {
   backgroundAudio.play();
 
   timer = setInterval(() => {
-    timerDuration--;
-    updateTimerDisplay();
+      timerDuration--;
+      updateTimerDisplay();
 
-    if (timerDuration === 0) {
-      clearInterval(timer);
-      showMessage("Meditation timer is complete!");
-      stopBackgroundAudio();
-    } else if (timerDuration % 20 === 0) {
-      // Show a new message every 20 seconds
-      messageIndex++;
-      showMessage(messages[messageIndex]);
-    }
+      if (timerDuration === 0) {
+          clearInterval(timer);
+          showMessage("Meditation timer is complete!");
+          stopBackgroundAudio();
+      } else if (timerDuration % 20 === 0) {
+          // Show a new message every 20 seconds
+          messageIndex++;
+          showMessage(messages[messageIndex]);
+      }
   }, 1000);
 }
 
@@ -62,7 +63,7 @@ function showMessage(message) {
 
   // Clear previous messages
   while (messagesContainer.firstChild) {
-    messagesContainer.removeChild(messagesContainer.firstChild);
+      messagesContainer.removeChild(messagesContainer.firstChild);
   }
 
   const messageContainer = document.createElement("div");
@@ -89,54 +90,58 @@ function resetTimer() {
 
 function stopBackgroundAudio() {
   if (backgroundAudio) {
-    backgroundAudio.pause();
+      backgroundAudio.pause();
   }
 }
-
-document.querySelector(".reset-button").addEventListener("click", resetTimer);
 
 // STOP AUDIO FUNCTION
 
 function stopBackgroundAudio() {
   if (backgroundAudio) {
-    backgroundAudio.pause();
+      backgroundAudio.pause();
   }
 }
 
+// GOOGLE MAPS 
 
+function initMap() {
+  const mapOptions = {
+      center: {
+          lat: 50.52082263846397,
+          lng: -3.621800093889851
+      },
+      zoom: 10,
+  };
 
+  const map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
-  // GOOGLE MAPS 
-  
-  function initMap() {
-    const mapOptions = {
-        center: { lat: 50.52082263846397, lng: -3.621800093889851 },
-        zoom: 10,
-    };
+  const locations = [{
+          lat: 50.52082263846397,
+          lng: -3.621800093889851
+      },
+      {
+          lat: 50.49949156451669,
+          lng: -3.5785696369530315
+      },
+      {
+          lat: 50.544380460226265,
+          lng: -3.584592617073369
+      }
+  ];
 
-    const map = new google.maps.Map(document.getElementById('map'), mapOptions);
-
-    const locations = [
-        { lat: 50.52082263846397, lng: -3.621800093889851 },
-        { lat: 50.49949156451669, lng: -3.5785696369530315 },
-        { lat: 50.544380460226265, lng: -3.584592617073369 }
-    ];
-
-    for (const location of locations) {
-        new google.maps.Marker({
-            position: location,
-            map: map
-        });
-    }
+  for (const location of locations) {
+      new google.maps.Marker({
+          position: location,
+          map: map
+      });
+  }
 }
 
-  // CONTACT FORM
-  
-  
-  $(document).ready(function() {
-    $(".text-area").click(function() {
-      $(this).find("p").slideToggle(); 
-    });
+// CONTACT FORM
+
+
+$(document).ready(function() {
+  $(".text-area").click(function() {
+      $(this).find("p").slideToggle();
   });
-  
-  
+});
