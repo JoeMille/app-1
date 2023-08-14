@@ -56,7 +56,7 @@ Once Javascript was working as expected (or near enough working) it was time to 
 Moving onto more thorough testing of deployed functions to my page, Google Maps which appears shortly on the Contacts page refused to open. This error took the longest to fix, as after moving across to Visual Studio Code, when previewing the page with an uncleared cache, Google Maps would vanish despite being properly placed. 
 
 ![Screenshot](jest-java-error.png)
-Before my Javascript could run properly, all syntax errors preventing code to execute were dealt with leaving the front-end of the meditation application working in order. 
+Before Javascript could run properly, all syntax errors preventing code to execute were dealt with leaving the front-end of the meditation application working in order. 
 
 
 
