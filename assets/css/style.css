@@ -86,23 +86,36 @@ body {
 
 .container {
   font-size: 50px;
-  font-family: 'Passion One', cursive ;
+  font-family: 'Passion One', cursive;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 50px auto 0; 
   padding: 10px;
 }
 
 .box {
+  position: relative;
   flex-basis: calc(50% - 20px);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background-color: #f8f8f8;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box; /* Add this to include padding in the width */
+  box-sizing: border-box;
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: linear-gradient(135deg, #f8f8f8 0%, #a09bdc 100%);
+  z-index: -1;
+  border-radius: 8px;
 }
 
 img {
@@ -118,9 +131,10 @@ p {
 
 @media (max-width: 768px) {
   .box {
-    flex-basis: 100%; 
+    flex-basis: 100%;
   }
 }
+
 
 /* STYLING FOR THE FOOTER */
 
@@ -196,14 +210,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; /* Add vertical spacing between buttons in each group */
+  gap: 10px; 
 }
 
 .button-container {
   font-family: 'Passion One', cursive;
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Add vertical spacing between button groups */
+  gap: 10px; 
 }
 
 .timer-display {
@@ -213,19 +227,18 @@ p {
   background-color: rgb(81, 13, 145);
   margin: 20px 0;
   padding: 20px;
-  border: 2px solid rgb(255, 255, 255); /* White border */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  border: 2px solid rgb(255, 255, 255); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 @media (max-width: 768px) {
   .timer-container button {
-    font-size: 20px; /* Adjust font size for smaller screens */
-    padding: 10px 20px; /* Adjust padding for smaller screens */
+    font-size: 20px; 
+    padding: 10px 20px; 
   }
 
   .timer-display {
-    font-size: 40px; /* Adjust font size for smaller screens */
-    margin: 10px 0; /* Adjust margin for smaller screens */
+    font-size: 40px; 
+    margin: 10px 0; 
   }
 }
 
@@ -313,6 +326,20 @@ p {
   flex-direction: column;
   align-items: center;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .contact-content-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .contact-content {
+    font-size: 24px;
+    padding: 10px;
+  }
+}
+
 
 /* MAP CONTAINER */
 
