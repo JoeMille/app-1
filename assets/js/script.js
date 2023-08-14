@@ -1,4 +1,4 @@
-//Mediation timer
+
 
 const messages = [
   "Take three deep breaths....",
@@ -80,20 +80,12 @@ function stopTimer() {
   stopBackgroundAudio();
 }
 
+// STOP AUDIO FUNCTION
+
 function stopBackgroundAudio() {
   if (backgroundAudio) {
     backgroundAudio.pause();
   }
-}
-
-//-------------------------------timer function
-
-// Circular progress
-const fill = document.querySelector(".fill");
-
-function updateCircularProgress() {
-  const progress = (timerDuration / (minutes * 60)) * 100;
-  fill.style.transform = `scaleY(${1 - (progress / 100)})`;
 }
 
 
