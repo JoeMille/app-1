@@ -44,7 +44,9 @@ As expected these testing procedures threw up more and more issues as the projec
 
 Once my Javascript was working as expected (or near enough working) it was time to begin testing with Jest. The first test was carried out on a simple maths function to check it was working. 
 
-![Screenshot](gmaps-java-error.png)
+<div align="left">
+    <img src="/gmaps-java-error.png" alt="Image" width="400">
+</div>
 Moving onto more thorough testing of deployed functions to my page, GoogleMaps which appears shortly on the Contacts page refused to open.
 
 ![Screenshot](jest-java-error.png)
