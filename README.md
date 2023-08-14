@@ -44,8 +44,10 @@ As expected these testing procedures threw up more and more issues as the projec
 
 Once my Javascript was working as expected (or near enough working) it was time to begin testing with Jest. The first test was carried out on a simple maths function to check it was working. 
 
-![Screenshot](gmaps-java-error.png)
-Moving onto more thorough testing of deployed functions to my page, GoogleMaps which appears shortly on the Contacts page refused to open.
+Moving onto more thorough testing of deployed functions to my page, Google Maps which appears shortly on the Contacts page refused to open.
+
+<img align="right" src="gmaps-java-error.png" alt="Google Maps Error Screenshot" width="300" height="100>
+
 
 ![Screenshot](jest-java-error.png)
 Before my Javascript could run properly, all syntax errors preventing code to execute were dealt with leaving the front-end of the meditation application working in order. 
@@ -61,7 +63,7 @@ As well as Developer Tools, Jest, and online code testing tools all code for the
 
 
 ### Environment Testing 
-Environment testing involved thoroughly assessing functionality and performance across varied  setups. This included testing the app on various operating systems, browsers, and devices such as smartphones, tablets, and desktop computers. Continuously resorting to developer tools to help with media query placement and sizing issues. Compatibility issues related to different screen sizes, resolutions, and interaction methods. Additionally, testing the app's audio playback and synchronization with background sounds, as well as evaluating its responsiveness under different network conditions, ensures a seamless meditation experience for users across different environments. By conducting thorough environment testing, the meditation timer application has been optimized to provide consistent performance and user satisfaction, regardless of the platform or device it is used on.
+Environment testing involved thoroughly assessing functionality and performance across varied  setups. This included testing the app on various operating systems, browsers, and devices such as smartphones, tablets, and desktop computers. Continuously resorting to developer tools to help with media query placement and sizing issues. Compatibility issues related to different screen sizes, resolutions, and interaction methods. Additionally, testing the app's audio playback and synchronization with javascript elements on the page, as well as evaluating its responsiveness under different network conditions, makes for a seamless meditation experience for users across different environments. By conducting thorough environment testing, the meditation timer application has been optimized to provide consistent performance and user satisfaction, regardless of the platform or device it is used on.
 
 
 ## Deployment (further)
