@@ -29,31 +29,38 @@
     <audio id="background-audio" loop>
       <source src="assets/sounds/rainforest-sounds.mp3" type="audio/mpeg"> Your browser does not support the audio element.
     </audio>
+    
+    
     <div class="timer-container">
       <div class="circular-progress">
-        <div class="progress-bar"></div>
-        <div class="fill"></div>
+          <div class="progress-bar"></div>
+          <div class="fill"></div>
       </div>
       <div class="timer-display">
-        <span id="minutes">00</span>: <span id="seconds">00</span>
+          <span id="minutes">00</span>: <span id="seconds">00</span>
       </div>
       <div class="button-container">
-        <!-- Timer Buttons Container -->
-        <div class="timer-buttons-container">
-          <button onclick="startTimer(5)">Start 5-Minute Timer</button>
-          <button onclick="startTimer(3)">Start 3-Minute Timer</button>
-          <button onclick="startTimer(2)">Start 2-Minute Timer</button>
-        </div>
-      
-        <!-- Stop and Reset Buttons Container -->
-        <div class="stop-reset-buttons-container">
-          <button onclick="stopTimer()">Stop</button>
-          <button class="reset-button">Reset</button>
-        </div>
+          <!-- Timer Buttons Container -->
+          <div class="timer-buttons-container">
+              <button onclick="startTimer(5)">Start 5-Minute Timer</button>
+              <button onclick="startTimer(3)">Start 3-Minute Timer</button>
+              <button onclick="startTimer(2)">Start 2-Minute Timer</button>
+          </div>
+        
+          <!-- Stop and Reset Buttons Container -->
+          <div class="stop-reset-buttons-container">
+              <button onclick="stopTimer()">Stop</button>
+              <button class="reset-button">Reset</button>
+          </div>
       </div>
-      
-    </div>
-
+  </div>
+  
+  
+  
+  
+  
+  
+  
     
     <div class="messages-container"></div>
     <footer class="main-footer">
