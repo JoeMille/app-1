@@ -3,78 +3,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
 
 body {
-  background-color: rgb(81, 13, 145);
-  background-image: url(/assets/images/background-image-needles.jpg);
-  background-size: no-repeat; 
+	background-color: rgb(81, 13, 145);
+	background-image: url(/assets/images/background-image-needles.jpg);
+	background-size: no-repeat;
 
 }
+
 /*Styling for the title header */
 
 .main-page-header {
-  background-image: url(/assets/images/blue-forest-2.jpeg);
-  background-size: cover; /* Stretch to cover without blurring */
-  background-repeat: no-repeat;
-  background-position: center; /* Center the image horizontally and vertically */
-  text-align: center;
-  font-family: 'Bungee Spice', cursive;
-  font-size: 30px;
-  border: 4px solid #db2323;
-  border-style: double;
+	background-image: url(/assets/images/blue-forest-2.jpeg);
+	background-size: cover;
+	/* Stretch to cover without blurring */
+	background-repeat: no-repeat;
+	background-position: center;
+	/* Center the image horizontally and vertically */
+	text-align: center;
+	font-family: 'Bungee Spice', cursive;
+	font-size: 30px;
+	border: 4px solid #db2323;
+	border-style: double;
 }
 
 
 /* Styling for the Main Navigation Bar across site */
 
 .main-nav {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
-  background-color: rgb(81, 13, 145);
-  font-size: 50px;
-  font-family: 'Passion One', cursive;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	background-color: rgb(81, 13, 145);
+	font-size: 50px;
+	font-family: 'Passion One', cursive;
 }
 
 .main-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
 }
 
 .main-nav li {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 
 .main-nav a {
-  display: block;
-  color: #fcfcfc;
-  text-decoration: none;
-  padding: 10px;
+	display: block;
+	color: #fcfcfc;
+	text-decoration: none;
+	padding: 10px;
 }
 
 .main-nav a:hover {
-  background-color: rgb(223, 53, 15);
+	background-color: rgb(223, 53, 15);
 }
 
 @media (max-width: 768px) {
-  .main-nav {
-    flex-direction: column;
-    height: auto;
-    text-align: center;
-  }
+	.main-nav {
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+	}
 
-  .main-nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
+	.main-nav ul {
+		flex-direction: column;
+		align-items: center;
+	}
 
-  .main-nav li {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
+	.main-nav li {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
 }
 
 
@@ -82,139 +85,139 @@ body {
 
 
 .container {
-  font-size: 50px;
-  font-family: 'Passion One', cursive ;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px;
+	font-size: 50px;
+	font-family: 'Passion One', cursive;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
 }
 
 .box {
-  flex-basis: calc(50% - 20px);
-  margin-bottom: 20px;
-  background-color: #f8f8f8;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box; /* Add this to include padding in the width */
+	flex-basis: calc(50% - 20px);
+	margin-bottom: 20px;
+	background-color: #f8f8f8;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	/* Add this to include padding in the width */
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 10px;
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	margin-bottom: 10px;
 }
 
 p {
-  line-height: 1.6;
+	line-height: 1.6;
 }
 
 @media (max-width: 768px) {
-  .box {
-    flex-basis: 100%; 
-  }
+	.box {
+		flex-basis: 100%;
+	}
 }
 
 /* STYLING FOR THE FOOTER */
 
 .main-footer {
-  font-family: 'Passion One', cursive;
-  background-color: #f0f0f0;
-  padding: 10px;
-  padding-bottom: 1px;
-  text-align: center;
-  width: 100%;
-  opacity: 0.8;
+	font-family: 'Passion One', cursive;
+	background-color: #f0f0f0;
+	padding: 10px;
+	padding-bottom: 1px;
+	text-align: center;
+	width: 100%;
+	opacity: 0.8;
 }
 
 .social-links {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .social-link {
-  font-size: 24px;
-  color: #333;
-  margin: 0 10px;
-  text-decoration: none;
+	font-size: 24px;
+	color: #333;
+	margin: 0 10px;
+	text-decoration: none;
 }
 
 .main-footer p {
-  font-size: 14px;
-  color: #666;
+	font-size: 14px;
+	color: #666;
 }
 
 
 /* MEDITATION PAGE */
 
 .meditation-paragraph {
-  font-family: 'Passion One', cursive;
-  font-size: 30px;
-  padding-top: 5%;
-  padding-left: 3%;
-  padding-right: 3%;
-  text-align: center;
+	font-family: 'Passion One', cursive;
+	font-size: 30px;
+	padding-top: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
 }
 
 /* MEDITATION PAGE TIMER*/
 
 .timer-container {
-  font-family: 'Passion One', cursive;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
+	font-family: 'Passion One', cursive;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
 }
 
 .timer-container button {
-  font-family: 'Passion One', cursive;
-  font-size: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(81, 13, 145);
-  border: 2px solid rgb(233, 245, 245);
-  color: rgb(255, 255, 255);
-  padding: 15px 30px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+	font-family: 'Passion One', cursive;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(81, 13, 145);
+	border: 2px solid rgb(233, 245, 245);
+	color: rgb(255, 255, 255);
+	padding: 15px 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 }
 
 .timer-container button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
 .button-container {
-  font-family: 'Passion One', cursive;
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
+	font-family: 'Passion One', cursive;
+	display: flex;
+	gap: 10px;
+	margin-top: 10px;
 }
 
 .timer-display {
-  font-family: 'Passion One', cursive;
-  font-size: 48px;
-  margin-bottom: 10px;
-  color: #333;
+	font-family: 'Passion One', cursive;
+	font-size: 48px;
+	margin-bottom: 10px;
+	color: #333;
 }
-
 
 
 /* TIMER MESSAGES */
 .message {
-  background-image: url(/assets/images/stones-water.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 60px;
-  font-family: 'Bayon', sans-serif;
-  text-align: center;
-  margin: 20px 0;
-  color: #333;
-  font-weight: bold;
+	background-image: url(/assets/images/stones-water.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 60px;
+	font-family: 'Bayon', sans-serif;
+	text-align: center;
+	margin: 20px 0;
+	color: #333;
+	font-weight: bold;
 }
 
 /* CONTACTS PAGE------------*/
@@ -222,51 +225,46 @@ p {
 /* MAP CONTAINER */
 
 #map {
-  width: 400px;
-  height: 300px;
+	width: 400px;
+	height: 300px;
 }
 
 /* CONTACT & INFO CARDS */
 
 .text-area-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
 }
 
 .text-area {
-  border: 2px solid #db2323;
-  padding: 20px;
-  background-color: #fff;
-  margin-bottom: 20px;
-  width: 80%;
-  max-width: 600px;
-  text-align: center;
-  cursor: pointer;
-  font-family: 'Passion One', cursive;
+	border: 2px solid #db2323;
+	padding: 20px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	width: 80%;
+	max-width: 600px;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Passion One', cursive;
 }
 
 .text-area i {
-  font-size: 48px;
-  margin-bottom: 10px;
-  color: #db2323;
+	font-size: 48px;
+	margin-bottom: 10px;
+	color: #db2323;
 }
 
 .text-area h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #333;
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #333;
 }
 
 .text-area p {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #555;
-  display: none;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #555;
+	display: none;
 }
-
-
-
-
-
