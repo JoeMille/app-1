@@ -39,8 +39,8 @@ function startTimer(minutes) {
           clearInterval(timer);
           showMessage("Meditation timer is complete!");
           stopBackgroundAudio();
-      } else if (timerDuration % 20 === 0) {
-          // Show a new message every 20 seconds
+      } else if (timerDuration % 15 === 0) {
+          // Show a new message every 15 seconds
           messageIndex++;
           showMessage(messages[messageIndex]);
       }

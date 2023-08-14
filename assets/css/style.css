@@ -175,13 +175,13 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(81, 13, 145);
-  border: 2px solid rgb(233, 245, 245);
-  color: rgb(255, 255, 255);
   padding: 15px 30px;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  background-color: rgb(81, 13, 145);
+  border: 2px solid rgb(233, 245, 245);
+  color: white;
 }
 
 .timer-container button:hover {
@@ -194,13 +194,26 @@ p {
   gap: 10px;
   margin-top: 10px;
 }
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
 
 .timer-display {
   font-family: 'Passion One', cursive;
   font-size: 48px;
   margin-bottom: 10px;
-  color: #333;
+  color: #8aecec;
+  background-color: rgb(81, 13, 145);
+  border: 2px solid rgb(255, 255, 255); /* White border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px; /* Add padding for better appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
+
 
 
 /* TIMER MESSAGES */
@@ -214,8 +227,11 @@ p {
   margin: 20px 0;
   color: #333;
   font-weight: bold;
+  border: 2px solid rgb(255, 255, 255); /* White border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add padding for better appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
-
 /* CONTACTS PAGE------------*/
 
 /* MAP CONTAINER */
