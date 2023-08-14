@@ -1,7 +1,11 @@
 
 # Headset Meditation App
 
+<<<<<<< HEAD
 ![Screenshot](/)
+=======
+![Screenshot](Head-Space-title.png)
+>>>>>>> 62abaf9fe5b69678b783e8a4223bcffde07da245
 
 
 ## Description
@@ -14,15 +18,30 @@ fundamentals gathered during the creation of Milestone Project 1 had been largel
 designed to embody the principles of design taught in Project 1, was more focused towards writing leggible and functioning custom Javascript code which when deployed behaves as expected.  
 
 ## User Stories
+This project acts as a simple meditation timer which when activated provides a comforting background sound and a visual aid
+to concentrate on in the form of messages displayed to the user. The goals of this free online tool are as listed from the 
+perspective of a prospective user who aims to find a short window of time in the day to center themselves and meditate:
+* Replace the need for a paid meditation app, these are costly and provide the same basic service.
+* Showcase an easy to use site with simple and obvious functionality.
+* use of attractive and calm colours and aesthetics so as not to distract from the generated messages during timer.
+* 
 
 
 ## Design Choices
 The main purpose of the design is to highlight a relaxed aesthetic and provide a comfortable digital environment 
 to take up to five minutes from the users daay to meditate. With the use of varying properties and functions, demonstrating
 a fundamental understanding of Javascript concepts as well as HTML and CSS literacy. Using Google Maps API, Bootstrap and Fontawesome.
-
+![Screenshot](first-function.png)
+![Screenshot](-timer-function.png)
 
 ## Testing
+
+![Screenshot](first-test.png)
+![Screenshot](NPM-testing.png)
+![Screenshot](gmaps-java-error.png)
+![Screenshot](jest-java-error.png)
+![Screenshot](lighthouse-fail.png)
+
 Jest 
 
 Google lighthouse 
