@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
   </head>
   <body>
+    <!--Page Header-->
     <header class="main-page-header">
       <h1>Head Set</h1>
     </header>
@@ -23,14 +24,18 @@
         </li>
       </ul>
     </nav>
+    
+    <!--Upper page content-->
     <div class="meditation-paragraph">
       <p>To begin a meditation session, click a duration and concentrate solely on the messages.</p>
     </div>
+
+    <!--Audio triggered on timer function-->
     <audio id="background-audio" loop>
       <source src="assets/sounds/rainforest-sounds.mp3" type="audio/mpeg"> Your browser does not support the audio element.
     </audio>
     
-    
+    <!--Meditation Timer-->
     <div class="timer-container">
       <div class="circular-progress">
           <div class="progress-bar"></div>
@@ -40,14 +45,14 @@
           <span id="minutes">00</span>: <span id="seconds">00</span>
       </div>
       <div class="button-container">
-          <!-- Timer Buttons Container -->
+    <!-- Timer Buttons Container -->
           <div class="timer-buttons-container">
               <button onclick="startTimer(5)">5-Minutes</button>
               <button onclick="startTimer(3)">3-Minutes</button>
               <button onclick="startTimer(2)">2-Minutes</button>
           </div>
         
-          <!-- Stop and Reset Buttons Container -->
+    <!-- Stop and Reset Buttons Container -->
           <div class="stop-reset-buttons-container">
               <button onclick="stopTimer()">Stop</button>
               <button class="reset-button">Reset</button>
@@ -57,12 +62,10 @@
   
   
   
-  
-  
-  
-  
-    
+    <!--Lower page message content-->
     <div class="messages-container"></div>
+
+    <!--Page Footer-->
     <footer class="main-footer">
       <div class="social-links">
         <a href="#" class="social-link">
@@ -77,7 +80,11 @@
       </div>
       <p>&copy; Head Set Enterprise 2023 </p>
     </footer>
+
+    <!--Google Maps API-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFBXiZcSMP4dehX6pUceBUlugBcmptEEE&callback=initMap" async defer></script>
+    
+    <!--JavaScript-->
     <script src="assets/js/script.js"></script>
   </body>
 </html>
