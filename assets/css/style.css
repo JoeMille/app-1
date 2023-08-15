@@ -245,7 +245,7 @@ p {
 
 /* TIMER MESSAGES */
 .message {
-  background-image: url(/assets/images/stones-water.jpeg);
+  background-image: url(assets/images/stones-water.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 60px;
@@ -308,7 +308,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('your-image-url.jpg');
   background-color: #fff;
   background-size: cover;
   padding: 20px;
