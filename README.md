@@ -1,5 +1,5 @@
 
-# Headset Meditation App
+# *Headset Meditation App*
 
 ![Screenshot](Head-Space-title.png)
 
@@ -23,30 +23,33 @@ perspective of a prospective user who aims to find a short window of time in the
 * Be able to locate the fictional owners easy when viewing the contact page.
 
 From the perspective of the developer the main objectives of Head Set meditation application are:
-* Primarily, to showcase a product which relies on custom Javascript for its main function 
-* Executes its purpose as intended 
-* Is enjoyable and similarly easy to navigate across all devices 
-* Gives users a service free of charge for a function that could be beneficial when beginning their meditative journey.
+* Primarily, to showcase a product which relies on custom Javascript for its main function. 
+* Executes its purpose as intended. 
+* Is enjoyable and similarly easy to navigate across all devices.
+* Allow users a service free of charge for a function that could be beneficial when beginning their       meditative journey.
 
 
 
 ## Design Choices
 The main purpose of the design is to highlight a relaxed aesthetic and provide a comfortable digital environment 
-to take up to five minutes from the users daay to meditate. With the use of varying properties and functions, demonstrating
-a fundamental understanding of Javascript concepts as well as HTML and CSS literacy. Using Google Maps API, Bootstrap and Fontawesome.
+to take up to five minutes from the users day to meditate. With the use of varying properties and functions, demonstrating
+a fundamental understanding of Javascript concepts as well as HTML and CSS literacy. Using Google Maps API, Jquery, Bootstrap and Fontawesome.
 ![Screenshot](timer-screenshot.png)
 
-All functioning parts of the site have been built with Javascript, and the project began based entirely around the first example function
+The first designs of Head Set meditation app although contrasting to the final deployment are similar in purpose and the final build hopefully embodies all aspects of the design that were most important during planning. 
+![Screenshot](first-wire-frame.png)
+
+All functioning parts of the site have been built with Javascript, and the project began based entirely around the first example function.
 ![Screenshot](first-function.png)
 
 ## Testing
 
 ![Screenshot](first-test.png)
 
-Testing JavaScript using Google Developer Tools provides new developers with a powerful set of debugging and profiling tools to inspect code execution, track variable values, and analyze performance bottlenecks. This enabled precise identification and resolution of issues. As always, the first test was a fail due to an AdBlock software preventing the Javascript file from running.
+Testing JavaScript using Google Developer Tools provides new developers with a powerful set of debugging and profiling tools to inspect code execution, track variable values, and analyze performance bottlenecks. This allows identification and resolution of issues. As expected, the first test was a fail due to an AdBlock software preventing the Javascript file from running.
 
 ![Screenshot](lighthouse-fail.png)
-As expected these testing procedures threw up more and more issues as the project became larger. 
+These testing procedures threw up more and more issues as the project became larger. From errors related to code placement within the JS file to finding sections 
 
 ![Screenshot](NPM-testing.png)
 
@@ -98,10 +101,11 @@ To ammend or add to, follow these simple steps:
 Although the syllabus for this project to most students could be described as novice, the second installment of Milestone Projects comes after numerous attempts and fails due to extenuating circumstances. The hope and design behind the Head Set meditation application is not just to provider the user with a simple, easy-to-operate meditation timer; the main intent is to provide working understanding of the HTML CSS and mainly, Javascript, code used throughout. After much trial and failure, and tremendous amounts of repeating lessons and tutorials the Head Set meditation app functions and views as intended across all computing set ups and hopefully demonstrates an understanding of the Javascript concepts it embodies.  
 ![Screenshot](-timer-function.png)
 
-witht the finished product, hopefully quite far from where the project began. 
+with the final product, hopefully quite far from where the project began. 
 
 ![Screenshot](final-screenshot.png)
 
+Thank you for taking the time to view this ReadMe.
 
 ## Author
 
