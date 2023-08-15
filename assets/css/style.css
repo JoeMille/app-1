@@ -28,7 +28,7 @@ max-width: 1800px;
 margin: 0 auto;
 }
 
-/* MAIN NAV */
+/* Main navigation used across site */
 
 .main-nav {
   margin: 0;
@@ -86,7 +86,7 @@ margin: 0 auto;
   }
 }
 
-/* TEXT BOXES */
+/* Text containers Home Page */
 
 .container {
   font-size: 50px;
@@ -139,7 +139,7 @@ p {
   }
 }
 
-/* STYLING FOR THE FOOTER */
+/* Main footer */
 
 .main-footer {
   font-family: 'Passion One', cursive;
@@ -168,7 +168,7 @@ p {
 }
 
 
-/* MEDITATION PAGE */
+/* Styling for the meditation page */
 
 .meditation-paragraph {
   font-family: 'Passion One', cursive;
@@ -179,7 +179,7 @@ p {
   text-align: center;
 }
 
-/* MEDITATION PAGE TIMER*/
+/* Meditation timer*/
 
 .timer-container {
   font-family: 'Passion One', cursive;
@@ -223,6 +223,8 @@ p {
   gap: 10px; 
 }
 
+/* Timer display */
+
 .timer-display {
   font-family: 'Passion One', cursive;
   font-size: 60px;
@@ -244,7 +246,7 @@ p {
     margin: 10px 0; 
   }
 }
-/* TIMER MESSAGES */
+/* Meditation Messages */
 
 .message {
   background-image: url(../images/stones-water.jpeg);
@@ -261,9 +263,9 @@ p {
   padding: 20px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
-/* CONTACTS PAGE------------*/
+/* Contact Page styling------------*/
 
-/* CONTACT & INFO CARDS */
+/* Contact and information containers */
 
 .text-area-container {
   display: flex;
@@ -304,7 +306,7 @@ p {
 }
 
 
-/* CONTACT CONTENT */ 
+/* Page content */ 
 
 .contact-content-box {
   display: flex;
@@ -340,7 +342,7 @@ p {
   }
 }
 
-/* MAP CONTAINER */
+/* Google Maps container */
 
 #map {
   width: 400px;
