@@ -12,23 +12,21 @@ The purpose of the Headset application is to showcase the understanding of funda
 By using lessons from Code Institute, Giraffe Academy, W3 Schools and a host of online rescources. 
 This project comes after a staggered halt to education for nearly a year, meaning that the majority of the HTML and CSS code 
 fundamentals gathered during the creation of Milestone Project 1 had been largely forgotten. The goal of this project although
-designed to embody the principles of design taught in Project 1, was more focused towards writing leggible and functioning custom Javascript code which when deployed behaves as expected.  
+designed to embody the principles of design taught in Project 1, was more focused towards writing leggible and functioning custom Javascript code which when deployed, behaves as expected. The initial and logical process to provide a meditation aid would be to provide audio content during a timer function, though this application provides visual stimuli generated from a message array to better showcase use of Javascript.
 
 ## *User Stories*
 This project acts as a simple meditation timer which when activated provides a comforting background sound and a visual aid
 to concentrate on in the form of messages displayed to the user. The goals of this free online tool are as listed from the 
-perspective of a prospective user who aims to find a short window of time in the day to center themselves and meditate:
-* Replace the need for a paid meditation app, these are costly and provide the same basic service.
+perspective of a user aiming to find a short window of time in the day to center themselves and meditate:
+* Replacing the need for a paid meditation app, these are costly and provide the same basic service.
 * Find content on each section of the site easy to navigate and quick to understand.
-* Be able to locate the fictional owners easy when viewing the contact page.
+* Be able to locate the fictional owners easily when viewing the contact page.
 
 From the perspective of the developer the main objectives of Head Set meditation application are:
 * Primarily, to showcase a product which relies on custom Javascript for its main function. 
 * Executes its purpose as intended. 
 * Is enjoyable and similarly easy to navigate across all devices.
 * Allow users a service free of charge for a function that could be beneficial when beginning their       meditative journey.
-
-
 
 ## *Design Choices*
 The main purpose of the design is to highlight a relaxed aesthetic and provide a comfortable digital environment 
@@ -53,15 +51,13 @@ These testing procedures threw up more and more issues as the project became lar
 
 ![Screenshot](NPM-testing.png)
 
-Once Javascript was working as expected (or near enough working) it was time to begin testing with Jest. The first test was carried out on a simple maths function to check it was working. 
+Once Javascript was working as expected (or near enough working) it was time to begin testing with Jest. The first test was carried out on a simple maths function. 
 
 ![Screenshot](gmaps-java-error.png)
-Moving onto more thorough testing of deployed functions to my page, Google Maps which appears shortly on the Contacts page refused to open. This error took the longest to fix, as after moving across to Visual Studio Code, when previewing the page with an uncleared cache, Google Maps would vanish despite being properly placed. 
+Moving onto more thorough testing of functions, Google Maps which appears shortly on the Contacts page refused to open. This error took the longest to fix, as after moving across to Visual Studio Code, when previewing the page with an uncleared cache, Google Maps would vanish despite being properly placed. 
 
 ![Screenshot](jest-java-error.png)
 Before Javascript could run properly, all syntax errors preventing code to execute were dealt with leaving the front-end of the meditation application working in order. 
-
-
 
 ## Testing Further...
 
@@ -70,12 +66,8 @@ As well as Developer Tools, Jest, and online code testing tools all code for the
 
 ![Screenshot](mock-tests.png)
 
-
-
-
 ### Environment Testing 
-Environment testing involved thoroughly assessing functionality and performance across varied  setups. This included testing the app on various operating systems, browsers, and devices such as smartphones, tablets, and desktop computers. Continuously resorting to developer tools to help with media query placement and sizing issues. Compatibility issues related to different screen sizes, resolutions, and interaction methods. Additionally, testing the app's audio playback and synchronization with javascript elements on the page, as well as evaluating its responsiveness under different network conditions, makes for a seamless meditation experience for users across different environments. By conducting thorough environment testing, the meditation timer application has been optimized to provide consistent performance and user satisfaction, regardless of the platform or device it is used on.
-
+Environment testing involved assessing performance across varied  setups. This included testing the app on various operating systems, browsers, and devices such as smartphones, tablets, and desktop computers. Resorting to developer tools to help with media query placement and sizing issues. Compatibility issues related to different screen sizes, resolutions, and interaction methods. Additionally, testing the app's audio playback and synchronization with javascript elements on the page, as well as evaluating its responsiveness under different network conditions, makes for a seamless meditation experience for users across different environments.
 
 ## Deployment (further)
 
@@ -93,12 +85,9 @@ To ammend or add to, follow these simple steps:
 * Beneath the repository name, click on the "Clone" option, which will open a new Gitpod workspace.
 * Inside your terminal, type "git clone", add the Coastal Chef URL and Press Enter.
  
-
-
-
 ## Summary
 
-Although the syllabus for this project to most students could be described as novice, the second installment of Milestone Projects comes after numerous attempts and fails due to extenuating circumstances. The hope and design behind the Head Set meditation application is not just to provider the user with a simple, easy-to-operate meditation timer; the main intent is to provide working understanding of the HTML CSS and mainly, Javascript, code used throughout. After much trial and failure, and tremendous amounts of repeating lessons and tutorials the Head Set meditation app functions and views as intended across all computing set ups and hopefully demonstrates an understanding of the Javascript concepts it embodies.  
+The hope and design behind the Head Set meditation application is not just to provide the user with a simple, easy-to-operate meditation timer; the main intent is to provide working understanding of the HTML CSS and mainly, Javascript, code used throughout. After much trial and failure, and tremendous amounts of repeating lessons and tutorials the Head Set meditation app functions and views as intended across all computing set ups and hopefully demonstrates an understanding of the Javascript concepts it embodies.  
 ![Screenshot](-timer-function.png)
 
 with the final product, hopefully quite far from where the project began. 
