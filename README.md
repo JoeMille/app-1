@@ -5,7 +5,7 @@
 
 
 
-## Description
+## *Description*
 The following project is a false page for a simple meditation application. 
 Using Javascript, HTML and CSS code for all three pages, as well as Jquery and Google Maps API software. 
 The purpose of the Headset application is to showcase the understanding of fundamental JS HTML and CSS principles.
@@ -14,7 +14,7 @@ This project comes after a staggered halt to education for nearly a year, meanin
 fundamentals gathered during the creation of Milestone Project 1 had been largely forgotten. The goal of this project although
 designed to embody the principles of design taught in Project 1, was more focused towards writing leggible and functioning custom Javascript code which when deployed behaves as expected.  
 
-## User Stories
+## *User Stories*
 This project acts as a simple meditation timer which when activated provides a comforting background sound and a visual aid
 to concentrate on in the form of messages displayed to the user. The goals of this free online tool are as listed from the 
 perspective of a prospective user who aims to find a short window of time in the day to center themselves and meditate:
@@ -30,7 +30,7 @@ From the perspective of the developer the main objectives of Head Set meditation
 
 
 
-## Design Choices
+## *Design Choices*
 The main purpose of the design is to highlight a relaxed aesthetic and provide a comfortable digital environment 
 to take up to five minutes from the users day to meditate. With the use of varying properties and functions, demonstrating
 a fundamental understanding of Javascript concepts as well as HTML and CSS literacy. Using Google Maps API, Jquery, Bootstrap and Fontawesome.
@@ -42,14 +42,14 @@ The first designs of Head Set meditation app although contrasting to the final d
 All functioning parts of the site have been built with Javascript, and the project began based entirely around the first example function.
 ![Screenshot](first-function.png)
 
-## Testing
+## *Testing*
 
 ![Screenshot](first-test.png)
 
 Testing JavaScript using Google Developer Tools provides new developers with a powerful set of debugging and profiling tools to inspect code execution, track variable values, and analyze performance bottlenecks. This allows identification and resolution of issues. As expected, the first test was a fail due to an AdBlock software preventing the Javascript file from running.
 
 ![Screenshot](lighthouse-fail.png)
-These testing procedures threw up more and more issues as the project became larger. From errors related to code placement within the JS file to finding sections 
+These testing procedures threw up more and more issues as the project became larger. From errors related to code placement within the JS file to finding sections of former code that no longer worked or were in use which ultimately led to lower performance values and page-loading.
 
 ![Screenshot](NPM-testing.png)
 
