@@ -8,13 +8,13 @@ body {
   background-size: no-repeat; 
 
 }
-/*Styling for the title header */
+/* MAIN HEADER */
 
 .main-page-header {
   background-image: url(assets/images/blue-forest-2.jpeg);
-  background-size: cover; /* Stretch to cover without blurring */
+  background-size: cover; 
   background-repeat: no-repeat;
-  background-position: center; /* Center the image horizontally and vertically */
+  background-position: center; 
   text-align: center;
   font-family: 'Bungee Spice', cursive;
   font-size: 30px;
@@ -22,8 +22,7 @@ body {
   border-style: double;
 }
 
-
-/* Styling for the Main Navigation Bar across site */
+/* MAIN NAV */
 
 .main-nav {
   margin: 0;
@@ -58,8 +57,8 @@ body {
 }
 
 .main-nav a:hover {
-  color: #fff; /* Change text color on hover */
-  border-bottom: 3px solid #db2323; /* Add bottom border on hover */
+  color: #fff; 
+  border-bottom: 3px solid #db2323; 
 }
 
 @media (max-width: 768px) {
@@ -80,9 +79,7 @@ body {
   }
 }
 
-
-/* Styling for the Homepage image and text boxes */
-
+/* TEXT BOXES */
 
 .container {
   font-size: 50px;
@@ -241,9 +238,8 @@ p {
     margin: 10px 0; 
   }
 }
-
-
 /* TIMER MESSAGES */
+
 .message {
   background-image: url(assets/images/stones-water.jpeg);
   background-repeat: no-repeat;
@@ -326,7 +322,6 @@ p {
   align-items: center;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
   .contact-content-box {
     flex-direction: column;
@@ -338,7 +333,6 @@ p {
     padding: 10px;
   }
 }
-
 
 /* MAP CONTAINER */
 
