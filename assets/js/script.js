@@ -6,7 +6,7 @@ const messages = [
   "Continue to breathe deeply....",
   "Focus on the quiet....",
   "Keep your shoulders relaxed and your head high....",
-"Continue to breathe deeply, clearing any further thoughts from your mind....",
+  "Continue to breathe deeply, clearing any further thoughts from your mind",
   "Bring your hands together and stretch to the sky....",
   "Lean your head back and hold your breath for five seconds....",
   "Close your eyes and imagine immersing into calm water...."
