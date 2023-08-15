@@ -1,3 +1,6 @@
+//Meditation Timer
+
+//Message Array
 const messages = [
   "Take three deep breaths....",
   "Focus on your breathing....",
@@ -17,6 +20,7 @@ let timerDuration;
 let messageIndex = 0;
 let backgroundAudio;
 
+// Function to start the timer
 function startTimer(minutes) {
   if (timer) {
       clearInterval(timer);
@@ -27,7 +31,8 @@ function startTimer(minutes) {
   updateTimerDisplay();
   showMessage(messages[messageIndex]);
 
-  // Play the background audio
+// Trigger background audio 
+
   backgroundAudio = document.getElementById("background-audio");
   backgroundAudio.play();
 
@@ -47,6 +52,8 @@ function startTimer(minutes) {
   }, 1000);
 }
 
+// Function to update the timer display
+
 function updateTimerDisplay() {
   const minutesDisplay = document.getElementById("minutes");
   const secondsDisplay = document.getElementById("seconds");
@@ -58,10 +65,12 @@ function updateTimerDisplay() {
   secondsDisplay.textContent = seconds;
 }
 
+// Function to show messages as timer continues
+
 function showMessage(message) {
   const messagesContainer = document.querySelector(".messages-container");
 
-  // Clear previous messages
+// Clear previous messages
   while (messagesContainer.firstChild) {
       messagesContainer.removeChild(messagesContainer.firstChild);
   }
@@ -73,11 +82,14 @@ function showMessage(message) {
   messagesContainer.appendChild(messageContainer);
 }
 
+// Function to stop the timer
 function stopTimer() {
   clearInterval(timer);
   updateTimerDisplay();
   stopBackgroundAudio();
 }
+
+// Function to reset the timer
 
 function resetTimer() {
   clearInterval(timer);
@@ -88,7 +100,7 @@ function resetTimer() {
   stopBackgroundAudio();
 }
 
-// STOP AUDIO FUNCTION
+// Function to stop background audio
 
 function stopBackgroundAudio() {
   if (backgroundAudio) {
@@ -96,7 +108,7 @@ function stopBackgroundAudio() {
   }
 }
 
-// GOOGLE-MAPS
+// Gogle Maps API
 
 function initMap() {
   const mapOptions = {
@@ -109,6 +121,7 @@ function initMap() {
 
   const map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
+// Add markers to the map
   const locations = [{
           lat: 50.52082263846397,
           lng: -3.621800093889851
@@ -131,8 +144,7 @@ function initMap() {
   }
 }
 
-// CONTACT FORM
-
+// jQuery to toggle text on click
 
 $(document).ready(function() {
   $(".text-area").click(function() {

@@ -1,5 +1,8 @@
+/* Google fonts "Bungee Spice" used for main page header */
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+/* Google fonts "Passion One"*/
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+/* Google fonts "Bayon" used for contact page */
 @import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
 
 body {
@@ -8,7 +11,7 @@ body {
   background-size: no-repeat; 
 
 }
-/* MAIN HEADER */
+/* Main page header used across site */
 
 .main-page-header {
 background-image: url(../images/blue-forest-2.jpeg);
