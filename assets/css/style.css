@@ -11,7 +11,7 @@ body {
 /*Styling for the title header */
 
 .main-page-header {
-  background-image: url(/assets/images/blue-forest-2.jpeg);
+  background-image: url(assets/images/blue-forest-2.jpeg);
   background-size: cover; /* Stretch to cover without blurring */
   background-repeat: no-repeat;
   background-position: center; /* Center the image horizontally and vertically */
