@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Meditation App</title>
+    <!--Bootstrap CDN----->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <!--Font Awesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
   </head>
   <body>
@@ -24,50 +26,42 @@
         </li>
       </ul>
     </nav>
-    
     <!--Upper page content-->
     <div class="meditation-paragraph">
       <p>To begin a meditation session, click a duration and concentrate solely on the messages.</p>
     </div>
-
     <!--Audio triggered on timer function-->
     <audio id="background-audio" loop>
       <source src="assets/sounds/rainforest-sounds.mp3" type="audio/mpeg"> Your browser does not support the audio element.
     </audio>
-    
     <!--Meditation Timer-->
     <div class="timer-container">
       <div class="circular-progress">
-          <div class="progress-bar"></div>
-          <div class="fill"></div>
+        <div class="progress-bar"></div>
+        <div class="fill"></div>
       </div>
       <div class="timer-display">
-          <span id="minutes">00</span>: <span id="seconds">00</span>
+        <span id="minutes">00</span>: <span id="seconds">00</span>
       </div>
       <div class="button-container">
-    <!-- Timer Buttons Container -->
-          <div class="timer-buttons-container">
-              <button onclick="startTimer(5)">5-Minutes</button>
-              <button onclick="startTimer(3)">3-Minutes</button>
-              <button onclick="startTimer(2)">2-Minutes</button>
-          </div>
-        
-    <!-- Stop and Reset Buttons Container -->
-          <div class="stop-reset-buttons-container">
-              <button onclick="stopTimer()">Stop</button>
-              <button class="reset-button">Reset</button>
-          </div>
+        <!-- Timer Buttons Container -->
+        <div class="timer-buttons-container">
+          <button onclick="startTimer(5)">5-Minutes</button>
+          <button onclick="startTimer(3)">3-Minutes</button>
+          <button onclick="startTimer(2)">2-Minutes</button>
+        </div>
+        <!-- Stop and Reset Buttons Container -->
+        <div class="stop-reset-buttons-container">
+          <button onclick="stopTimer()">Stop</button>
+          <button class="reset-button">Reset</button>
+        </div>
       </div>
-  </div>
-  
-  
-  
+    </div>
     <!--Lower page message content-->
     <div class="messages-container"></div>
-
     <!--Page Footer-->
     <footer class="main-footer">
-      <div class="social-links">
+      <div class="footer-social-links">
         <a href="#" class="footer-social-link">
           <i class="fab fa-facebook"></i>
         </a>
@@ -80,10 +74,9 @@
       </div>
       <p>&copy; Head Set Enterprise 2023 </p>
     </footer>
-
-    <!--Google Maps API-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFBXiZcSMP4dehX6pUceBUlugBcmptEEE&callback=initMap" async defer></script>
     
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!--JavaScript-->
     <script src="assets/js/script.js"></script>
   </body>
