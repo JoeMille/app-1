@@ -31,12 +31,12 @@ function startTimer(minutes) {
   updateTimerDisplay();
   showMessage(messages[messageIndex]);
 
-// Trigger background audio 
+// Trigger background audio
 
   backgroundAudio = document.getElementById("background-audio");
   backgroundAudio.play();
 
-  timer = setInterval(() => {
+  timer = setInterval(function() {
       timerDuration--;
       updateTimerDisplay();
 
@@ -59,7 +59,7 @@ function updateTimerDisplay() {
   const secondsDisplay = document.getElementById("seconds");
 
   const minutes = Math.floor(timerDuration / 60).toString().padStart(2, "0");
-  const seconds = (timerDuration % 60).toString().padStart(2, "0");
+  const seconds = (timerDuration % 60);toString().padStart(2, "0");
 
   minutesDisplay.textContent = minutes;
   secondsDisplay.textContent = seconds;
@@ -111,39 +111,39 @@ function stopBackgroundAudio() {
 // Gogle Maps API
 
 function initMap() {
-  const mapOptions = {
-      center: {
-          lat: 50.52082263846397,
-          lng: -3.621800093889851
-      },
-      zoom: 10
+  let mapOptions = {
+    center: {
+      lat: 50.52082263846397,
+      lng: -3.621800093889851
+    },
+    zoom: 10
   };
 
-  const map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  let map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-// Add markers to the map
-  const locations = [{
-          lat: 50.52082263846397,
-          lng: -3.621800093889851
-      },
-      {
-          lat: 50.49949156451669,
-          lng: -3.5785696369530315
-      },
-      {
-          lat: 50.544380460226265,
-          lng: -3.584592617073369
-      }
+  // Add markers to the map
+  let locations = [
+    {
+      lat: 50.52082263846397,
+      lng: -3.621800093889851
+    },
+    {
+      lat: 50.49949156451669,
+      lng: -3.5785696369530315
+    },
+    {
+      lat: 50.544380460226265,
+      lng: -3.584592617073369
+    }
   ];
 
   for (const location of locations) {
-      new google.maps.Marker({
-          position: location,
-          map: map
-      });
-  }
+    new google.maps.Marker({
+        position: location,
+        map: map
+    });
 }
-
+}
 // jQuery to toggle text on click
 
 $(document).ready(function() {
