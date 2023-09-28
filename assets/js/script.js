@@ -32,7 +32,7 @@ const messages = [
   "A day thinking about what could happen, should happen, or what might have been is a day missed....",
   "The past is a memory, the future is a fantasy, and the present moment is real....",
   "The present moment is all that ever exists....",
-  "Brilliant things happen in calm minds. Be calm. You're brilliant....",
+  "Brilliant things happen in calm minds. Be calm. You're brilliant...."
 ];
 
 let timer;
