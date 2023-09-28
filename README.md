@@ -69,7 +69,11 @@ As well as Developer Tools, Jest, and online code testing tools all code for the
 ### Environment Testing 
 Environment testing involved assessing performance across varied  setups. This included testing the app on various operating systems, browsers, and devices such as smartphones, tablets, and desktop computers. Resorting to developer tools to help with media query placement and sizing issues. Compatibility issues related to different screen sizes, resolutions, and interaction methods. Additionally, testing the app's audio playback and synchronization with javascript elements on the page, as well as evaluating its responsiveness under different network conditions, makes for a seamless meditation experience for users across different environments.
 
-## Deployment (further)
+## Deployment 
+
+Automated and manual deployment are two imperative tools for releasing and updating digital projects. The cycle of which begins with the manual deployment of written code to a repository allowing developers and testers to carefully review and test each stage of development to the production environment. Manual deployment allows for human validation at every stage of the process and fine-tuning/adjustment of configurations as needed. Manual deployment for the Meditation App began with a smoke test of the applications most basic iteration. Once the basic code for the timing mechanism had been written, a test page was deployed and the code was altered continuously until it performed its core function.
+
+Automated deployment ensures the application performs across all platforms and can be implemented by writing small individual tests for each function and component of said application. A unit test was created to ensure the logic within the meditation timer functioned correctly, and that it accurately counts down and triggers the correct events at the correct intervals. Another example would be the API testing method, which makes sure an application is communicating effectively and retrieving valid data such as global positioning within a Google Maps feature. By utilising these tests throughout the development process, devlopers can streamline their testing processes and highlight potential errors and issues during development. 
 
 This project is available to be cloned and ammended as well as improved upon.
 
