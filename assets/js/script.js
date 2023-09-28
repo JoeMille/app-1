@@ -12,7 +12,27 @@ const messages = [
   "Continue to breathe deeply, clearing any further thoughts from your mind",
   "Bring your hands together and stretch to the sky....",
   "Lean your head back and hold your breath for five seconds....",
-  "Close your eyes and imagine immersing into calm water...."
+  "Close your eyes and imagine immersing into calm water....",
+  "Clarity dictates our perspective, and our perspective dictates our experience. Get more clarity in your life....",
+  "The more you know who you are, and what you want, the less you let things upset you....",
+  "Now is a great time to be present. Now is good, too. And now...",
+  "You are exactly where you need to be....",
+  "You are enough....",
+  "There are no mistakes in meditation....",
+  "There is no room for anger when the mind is calm....",
+  "You are not your thoughts....",
+  "You are not your emotions....",
+  "The mind is our most precious resource, through which we experience every single moment of life....",
+  "The mind is a wonderful servant, but a terrible master....",
+  "The quieter you become, the more you can hear....",
+  "Meditation and life are not separate....",
+  "Notice what takes your attention, acknowledge it, and then let it go....",
+  "The present moment is all that ever exists....",
+  "You are not your past....",
+  "A day thinking about what could happen, should happen, or what might have been is a day missed....",
+  "The past is a memory, the future is a fantasy, and the present moment is real....",
+  "The present moment is all that ever exists....",
+  "Brilliant things happen in calm minds. Be calm. You're brilliant....",
 ];
 
 let timer;
@@ -137,13 +157,14 @@ function initMap() {
     }
   ];
 
-  for (const location of locations) {
-    new google.maps.Marker({
-        position: location,
-        map: map
-    });
+ for (const location of locations) {
+   new google.maps.Marker({
+     position: location,
+     map: map
+   });
+ }
 }
-}
+
 // jQuery to toggle text on click
 
 $(document).ready(function() {
@@ -151,5 +172,3 @@ $(document).ready(function() {
       $(this).find("p").slideToggle();
   });
 });
-
-
