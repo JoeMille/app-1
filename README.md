@@ -75,6 +75,9 @@ Automated and manual deployment are two imperative tools for releasing and updat
 
 Automated deployment ensures the application performs across all platforms and can be implemented by writing small individual tests for each function and component of said application. A unit test was created to ensure the logic within the meditation timer functioned correctly, and that it accurately counts down and triggers the correct events at the correct intervals. Another example would be the API testing method, which makes sure an application is communicating effectively and retrieving valid data such as global positioning within a Google Maps feature. By utilising these tests throughout the development process, devlopers can streamline their testing processes and highlight potential errors and issues during development. 
 
+Final testing of Javascript for the application was performed through jshint.com, which allows designers to finalise testing by making sure the entirety of their programme/project/file passes through the codereader without prevention from error or mis-spacing. 
+![Screenshot](jshint-test.png)
+
 This project uses NPM, to install please follow these simple steps:  
 
 1. Check if node.js is installed, if not already installed then download and install from https://nodejs.org
