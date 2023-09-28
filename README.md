@@ -75,6 +75,15 @@ Automated and manual deployment are two imperative tools for releasing and updat
 
 Automated deployment ensures the application performs across all platforms and can be implemented by writing small individual tests for each function and component of said application. A unit test was created to ensure the logic within the meditation timer functioned correctly, and that it accurately counts down and triggers the correct events at the correct intervals. Another example would be the API testing method, which makes sure an application is communicating effectively and retrieving valid data such as global positioning within a Google Maps feature. By utilising these tests throughout the development process, devlopers can streamline their testing processes and highlight potential errors and issues during development. 
 
+This project uses NPM, to install please follow these simple steps:  
+
+1. Check if node.js is installed, if not already installed then download and install from https://nodejs.org
+2. NPM is included within nodejs, once downloaded, enter "npm -v" into the project terminal.
+3. If you haven't already, install project dependencies listed in your package.json file. to do this, run "npm install"
+4. Once installed you can run your test script so long as it is defined in your package.json file under the "scripts" section. Run test with the following command "npm test".
+
+These steps allow you to install and use NPM to test scripts within the Head Set Meditation Application. 
+
 This project is available to be cloned and ammended as well as improved upon.
 
 To clone this project you will need:
@@ -87,7 +96,7 @@ To ammend or add to, follow these simple steps:
 * Sign into your Gitpod account
 * Navigate to the XXXXXXX repository.
 * Beneath the repository name, click on the "Clone" option, which will open a new Gitpod workspace.
-* Inside your terminal, type "git clone", add the Coastal Chef URL and Press Enter.
+* Inside your terminal, type "git clone", add the Head Set URL and Press Enter.
  
 ## Summary
 
