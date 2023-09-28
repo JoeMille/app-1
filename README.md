@@ -126,6 +126,7 @@ ChefJoeMiller1992@gmail.com
 * [Code Institute](https://learn.codeinstitute.net/)
 * [Stack Overflow](https://stackoverflow.com/questions)
 * [Free Code Camp](https://www.freecodecamp.org/)
+* [Jshint](https://jshint.com)
 
 ## Libraries used
 * Jquery
