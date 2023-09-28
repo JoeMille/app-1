@@ -323,7 +323,7 @@ p {
 
 .contact-content {
   font-family: 'Passion One', cursive;
-  font-size: 30px;
+  font-size: 20px;
   color: #333;
   display: flex;
   flex-direction: column;
@@ -345,6 +345,6 @@ p {
 /* Google Maps container */
 
 #map {
-  width: 500px;
+  width: 800px;
   height: 300px;
 }
